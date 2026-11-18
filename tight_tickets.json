@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T14:28:14",
+ "generated": "2026-11-18T16:09:39",
  "tickets": [
   {
    "game": "All or Nothing",
@@ -7,7 +7,9 @@
    "detail": "night W=6 e1=5 e2=70",
    "best": "11/12",
    "best_date": "12/29/2023",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing",
@@ -15,7 +17,9 @@
    "detail": "interleaved W=4 e1=3 e2=77",
    "best": "11/12",
    "best_date": "5/18/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "8/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing",
@@ -23,7 +27,9 @@
    "detail": "evening W=9 e1=3 e2=75",
    "best": "11/12",
    "best_date": "4/2/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing",
@@ -31,7 +37,9 @@
    "detail": "morning W=6 e1=2 e2=73",
    "best": "11/12",
    "best_date": "4/18/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing",
@@ -39,7 +47,9 @@
    "detail": "day W=10 e1=1 e2=70",
    "best": "11/12",
    "best_date": "1/6/2023",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -47,7 +57,9 @@
    "detail": "e1=10 e2=67 5o/7e",
    "best": "11/12",
    "best_date": "2/13/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "6/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -55,7 +67,9 @@
    "detail": "e1=9 e2=72 5o/7e",
    "best": "11/12",
    "best_date": "8/10/2023",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -63,7 +77,9 @@
    "detail": "e1=8 e2=60 6o/6e",
    "best": "11/12",
    "best_date": "11/3/2022",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "6/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -71,7 +87,9 @@
    "detail": "e1=8 e2=57 5o/7e",
    "best": "11/12",
    "best_date": "10/4/2025",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -79,7 +97,9 @@
    "detail": "e1=8 e2=54 7o/5e",
    "best": "11/12",
    "best_date": "11/17/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -87,7 +107,9 @@
    "detail": "e1=8 e2=53 6o/6e",
    "best": "11/12",
    "best_date": "6/5/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -95,7 +117,9 @@
    "detail": "e1=8 e2=52 6o/6e",
    "best": "11/12",
    "best_date": "6/27/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "7/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -103,7 +127,9 @@
    "detail": "e1=8 e2=52 6o/6e",
    "best": "11/12",
    "best_date": "11/4/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "8/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -111,7 +137,9 @@
    "detail": "e1=8 e2=51 6o/6e",
    "best": "11/12",
    "best_date": "3/17/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "6/12",
+   "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23"
   },
   {
    "game": "Pick 3 Morning",
@@ -119,7 +147,9 @@
    "detail": "box wins=37 drought=48",
    "best": "3/3",
    "best_date": "9/23/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -127,7 +157,9 @@
    "detail": "box wins=37 drought=3",
    "best": "3/3",
    "best_date": "11/14/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -135,7 +167,9 @@
    "detail": "box wins=36 drought=45",
    "best": "3/3",
    "best_date": "9/26/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -143,7 +177,9 @@
    "detail": "box wins=35 drought=272",
    "best": "3/3",
    "best_date": "1/5/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -151,7 +187,9 @@
    "detail": "box wins=34 drought=82",
    "best": "3/3",
    "best_date": "8/14/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -159,7 +197,9 @@
    "detail": "box wins=34 drought=73",
    "best": "3/3",
    "best_date": "8/25/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -167,7 +207,9 @@
    "detail": "box wins=34 drought=19",
    "best": "3/3",
    "best_date": "10/27/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -175,7 +217,9 @@
    "detail": "box wins=33 drought=127",
    "best": "3/3",
    "best_date": "6/23/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "331"
   },
   {
    "game": "Pick 3 Morning",
@@ -183,7 +227,9 @@
    "detail": "box wins=33 drought=70",
    "best": "3/3",
    "best_date": "8/28/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "331"
   },
   {
    "game": "Daily 4 Morning",
@@ -191,7 +237,9 @@
    "detail": "box wins=20 drought=394",
    "best": "4/4",
    "best_date": "8/15/2025",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -199,7 +247,9 @@
    "detail": "box wins=17 drought=179",
    "best": "4/4",
    "best_date": "4/23/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -207,7 +257,9 @@
    "detail": "box wins=16 drought=253",
    "best": "4/4",
    "best_date": "1/27/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -215,7 +267,9 @@
    "detail": "box wins=16 drought=238",
    "best": "4/4",
    "best_date": "2/13/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -223,7 +277,9 @@
    "detail": "box wins=16 drought=160",
    "best": "4/4",
    "best_date": "5/15/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -231,7 +287,9 @@
    "detail": "box wins=16 drought=154",
    "best": "4/4",
    "best_date": "5/22/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -239,7 +297,9 @@
    "detail": "box wins=16 drought=138",
    "best": "4/4",
    "best_date": "6/10/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -247,7 +307,9 @@
    "detail": "box wins=16 drought=62",
    "best": "4/4",
    "best_date": "9/7/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/4",
+   "last_draw": "1123"
   },
   {
    "game": "Daily 4 Morning",
@@ -255,7 +317,9 @@
    "detail": "box wins=15 drought=381",
    "best": "4/4",
    "best_date": "8/30/2025",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "1123"
   },
   {
    "game": "Pick 3 Day",
@@ -263,7 +327,9 @@
    "detail": "box wins=58 drought=12",
    "best": "3/3",
    "best_date": "11/4/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -271,7 +337,9 @@
    "detail": "box wins=57 drought=73",
    "best": "3/3",
    "best_date": "8/25/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -279,7 +347,9 @@
    "detail": "box wins=56 drought=40",
    "best": "3/3",
    "best_date": "10/2/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -287,7 +357,9 @@
    "detail": "box wins=55 drought=218",
    "best": "3/3",
    "best_date": "3/9/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -295,7 +367,9 @@
    "detail": "box wins=55 drought=95",
    "best": "3/3",
    "best_date": "7/30/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -303,7 +377,9 @@
    "detail": "box wins=55 drought=49",
    "best": "3/3",
    "best_date": "9/22/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -311,7 +387,9 @@
    "detail": "box wins=55 drought=7",
    "best": "3/3",
    "best_date": "11/10/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -319,7 +397,9 @@
    "detail": "box wins=54 drought=264",
    "best": "3/3",
    "best_date": "1/14/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/3",
+   "last_draw": "575"
   },
   {
    "game": "Pick 3 Day",
@@ -327,7 +407,9 @@
    "detail": "box wins=54 drought=108",
    "best": "3/3",
    "best_date": "7/15/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/3",
+   "last_draw": "575"
   },
   {
    "game": "Daily 4 Day",
@@ -335,7 +417,9 @@
    "detail": "box wins=26 drought=6",
    "best": "4/4",
    "best_date": "11/11/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -343,7 +427,9 @@
    "detail": "box wins=23 drought=68",
    "best": "4/4",
    "best_date": "8/31/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -351,7 +437,9 @@
    "detail": "box wins=22 drought=500",
    "best": "4/4",
    "best_date": "4/14/2025",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -359,7 +447,9 @@
    "detail": "box wins=22 drought=70",
    "best": "4/4",
    "best_date": "8/28/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "0/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -367,7 +457,9 @@
    "detail": "box wins=21 drought=809",
    "best": "4/4",
    "best_date": "4/18/2024",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -375,7 +467,9 @@
    "detail": "box wins=21 drought=734",
    "best": "4/4",
    "best_date": "7/15/2024",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -383,7 +477,9 @@
    "detail": "box wins=21 drought=135",
    "best": "4/4",
    "best_date": "6/13/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -391,7 +487,9 @@
    "detail": "box wins=20 drought=931",
    "best": "4/4",
    "best_date": "11/28/2023",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "2/4",
+   "last_draw": "4635"
   },
   {
    "game": "Daily 4 Day",
@@ -399,7 +497,9 @@
    "detail": "box wins=20 drought=197",
    "best": "4/4",
    "best_date": "4/2/2026",
-   "asof": "11/18/2026"
+   "asof": "11/18/2026",
+   "last": "1/4",
+   "last_draw": "4635"
   },
   {
    "game": "Pick 3 Evening",
@@ -407,7 +507,9 @@
    "detail": "box wins=36 drought=15",
    "best": "3/3",
    "best_date": "10/30/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -415,7 +517,9 @@
    "detail": "box wins=35 drought=2",
    "best": "3/3",
    "best_date": "11/14/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -423,7 +527,9 @@
    "detail": "box wins=34 drought=261",
    "best": "3/3",
    "best_date": "1/16/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -431,7 +537,9 @@
    "detail": "box wins=34 drought=246",
    "best": "3/3",
    "best_date": "2/3/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -439,7 +547,9 @@
    "detail": "box wins=34 drought=107",
    "best": "3/3",
    "best_date": "7/15/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -447,7 +557,9 @@
    "detail": "box wins=34 drought=88",
    "best": "3/3",
    "best_date": "8/6/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -455,7 +567,9 @@
    "detail": "box wins=34 drought=56",
    "best": "3/3",
    "best_date": "9/12/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -463,7 +577,9 @@
    "detail": "box wins=33 drought=359",
    "best": "3/3",
    "best_date": "9/24/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "2/3",
+   "last_draw": "644"
   },
   {
    "game": "Pick 3 Evening",
@@ -471,7 +587,9 @@
    "detail": "box wins=32 drought=400",
    "best": "3/3",
    "best_date": "8/7/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "644"
   },
   {
    "game": "Daily 4 Evening",
@@ -479,7 +597,9 @@
    "detail": "box wins=22 drought=339",
    "best": "4/4",
    "best_date": "10/17/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -487,7 +607,9 @@
    "detail": "box wins=19 drought=79",
    "best": "4/4",
    "best_date": "8/17/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "2/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -495,7 +617,9 @@
    "detail": "box wins=19 drought=43",
    "best": "4/4",
    "best_date": "9/28/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -503,7 +627,9 @@
    "detail": "box wins=17 drought=109",
    "best": "4/4",
    "best_date": "7/13/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -511,7 +637,9 @@
    "detail": "box wins=15 drought=983",
    "best": "4/4",
    "best_date": "9/27/2023",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -519,7 +647,9 @@
    "detail": "box wins=15 drought=939",
    "best": "4/4",
    "best_date": "11/17/2023",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -527,7 +657,9 @@
    "detail": "box wins=15 drought=170",
    "best": "4/4",
    "best_date": "5/2/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -535,7 +667,9 @@
    "detail": "box wins=15 drought=94",
    "best": "4/4",
    "best_date": "7/30/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/4",
+   "last_draw": "8099"
   },
   {
    "game": "Daily 4 Evening",
@@ -543,7 +677,9 @@
    "detail": "box wins=15 drought=41",
    "best": "4/4",
    "best_date": "9/30/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "8099"
   },
   {
    "game": "Pick 3 Night",
@@ -551,7 +687,9 @@
    "detail": "box wins=85 drought=26",
    "best": "3/3",
    "best_date": "10/17/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -559,7 +697,9 @@
    "detail": "box wins=82 drought=202",
    "best": "3/3",
    "best_date": "3/26/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -567,7 +707,9 @@
    "detail": "box wins=82 drought=105",
    "best": "3/3",
    "best_date": "7/17/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -575,7 +717,9 @@
    "detail": "box wins=80 drought=296",
    "best": "3/3",
    "best_date": "12/6/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -583,7 +727,9 @@
    "detail": "box wins=79 drought=90",
    "best": "3/3",
    "best_date": "8/4/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -591,7 +737,9 @@
    "detail": "box wins=77 drought=74",
    "best": "3/3",
    "best_date": "8/22/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -599,7 +747,9 @@
    "detail": "box wins=77 drought=51",
    "best": "3/3",
    "best_date": "9/18/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -607,7 +757,9 @@
    "detail": "box wins=76 drought=44",
    "best": "3/3",
    "best_date": "9/26/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "406"
   },
   {
    "game": "Pick 3 Night",
@@ -615,7 +767,9 @@
    "detail": "box wins=76 drought=17",
    "best": "3/3",
    "best_date": "10/28/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/3",
+   "last_draw": "406"
   },
   {
    "game": "Daily 4 Night",
@@ -623,7 +777,9 @@
    "detail": "box wins=29 drought=204",
    "best": "4/4",
    "best_date": "3/24/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "2/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -631,7 +787,9 @@
    "detail": "box wins=26 drought=6",
    "best": "4/4",
    "best_date": "11/10/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -639,7 +797,9 @@
    "detail": "box wins=24 drought=70",
    "best": "4/4",
    "best_date": "8/27/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -647,7 +807,9 @@
    "detail": "box wins=23 drought=239",
    "best": "4/4",
    "best_date": "2/11/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -655,7 +817,9 @@
    "detail": "box wins=23 drought=144",
    "best": "4/4",
    "best_date": "6/2/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -663,7 +827,9 @@
    "detail": "box wins=23 drought=99",
    "best": "4/4",
    "best_date": "7/24/2026",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "1/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -671,7 +837,9 @@
    "detail": "box wins=22 drought=574",
    "best": "4/4",
    "best_date": "1/16/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -679,7 +847,9 @@
    "detail": "box wins=22 drought=511",
    "best": "4/4",
    "best_date": "3/31/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/4",
+   "last_draw": "2524"
   },
   {
    "game": "Daily 4 Night",
@@ -687,7 +857,9 @@
    "detail": "box wins=22 drought=329",
    "best": "4/4",
    "best_date": "10/29/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/4",
+   "last_draw": "2524"
   },
   {
    "game": "Cash Five",
@@ -695,7 +867,9 @@
    "detail": "wins=134",
    "best": "4/5",
    "best_date": "3/10/2014",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -703,7 +877,9 @@
    "detail": "wins=133",
    "best": "4/5",
    "best_date": "5/8/2021",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -711,7 +887,9 @@
    "detail": "wins=133",
    "best": "4/5",
    "best_date": "4/8/2020",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -719,7 +897,9 @@
    "detail": "wins=132",
    "best": "4/5",
    "best_date": "11/8/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -727,7 +907,9 @@
    "detail": "wins=132",
    "best": "4/5",
    "best_date": "1/15/2025",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -735,7 +917,9 @@
    "detail": "wins=132",
    "best": "4/5",
    "best_date": "1/22/2018",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -743,7 +927,9 @@
    "detail": "wins=131",
    "best": "4/5",
    "best_date": "1/3/2020",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -751,7 +937,9 @@
    "detail": "wins=131",
    "best": "4/5",
    "best_date": "1/18/2017",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Cash Five",
@@ -759,7 +947,9 @@
    "detail": "wins=131",
    "best": "4/5",
    "best_date": "12/9/1997",
-   "asof": "11/17/2026"
+   "asof": "11/17/2026",
+   "last": "0/5",
+   "last_draw": "13,19,17,33,18"
   },
   {
    "game": "Texas Two Step",
@@ -767,7 +957,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "9/14/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "0/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -775,7 +967,9 @@
    "detail": "wins=24",
    "best": "3/4+B",
    "best_date": "4/9/2007",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "0/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -783,7 +977,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "10/8/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -791,7 +987,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "8/18/2025",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -799,7 +997,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "10/8/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -807,7 +1007,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "10/8/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -815,7 +1017,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "9/15/2025",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -823,7 +1027,9 @@
    "detail": "wins=24",
    "best": "3/4",
    "best_date": "10/8/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Texas Two Step",
@@ -831,7 +1037,9 @@
    "detail": "wins=23",
    "best": "3/4",
    "best_date": "9/14/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "0/4",
+   "last_draw": "8,15,20,25 + 26"
   },
   {
    "game": "Lotto Texas",
@@ -839,7 +1047,9 @@
    "detail": "wins=5",
    "best": "4/6",
    "best_date": "12/18/2021",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "3/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -847,7 +1057,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "3/25/2026",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "2/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -855,7 +1067,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "7/27/2019",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "2/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -863,7 +1077,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "12/16/2024",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -871,7 +1087,9 @@
    "detail": "wins=4",
    "best": "5/6",
    "best_date": "1/1/2005",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "2/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -879,7 +1097,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "5/26/2021",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "2/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -887,7 +1107,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "2/20/2021",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -895,7 +1117,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "1/22/2024",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "2/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Lotto Texas",
@@ -903,7 +1127,9 @@
    "detail": "wins=4",
    "best": "4/6",
    "best_date": "5/29/2023",
-   "asof": "11/16/2026"
+   "asof": "11/16/2026",
+   "last": "1/6",
+   "last_draw": "1,33,35,2,14,12"
   },
   {
    "game": "Powerball",
@@ -911,7 +1137,9 @@
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
    "best_date": "2019-02-09",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -919,7 +1147,9 @@
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
    "best_date": "2019-02-09",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -927,7 +1157,9 @@
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
    "best_date": "2019-02-09",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -935,7 +1167,9 @@
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
    "best_date": "2024-11-27",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -943,7 +1177,9 @@
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
    "best_date": "2024-11-27",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -951,7 +1187,9 @@
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=0 W3B=3",
    "best": "3/5+B",
    "best_date": "2023-10-18",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -959,7 +1197,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2019-02-09",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -967,7 +1207,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2019-02-09",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Powerball",
@@ -975,7 +1217,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2019-02-09",
-   "asof": "2026-11-16"
+   "asof": "2026-11-16",
+   "last": "0/5",
+   "last_draw": "17,35,48,60,69 + 17"
   },
   {
    "game": "Mega Millions",
@@ -983,7 +1227,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2025-08-08",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "0/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -991,7 +1237,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2022-10-11",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -999,7 +1247,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2025-11-14",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -1007,7 +1257,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2025-11-14",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "0/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -1015,7 +1267,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2020-06-09",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -1023,7 +1277,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2020-06-09",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -1031,7 +1287,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2020-06-09",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -1039,7 +1297,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2020-06-09",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   },
   {
    "game": "Mega Millions",
@@ -1047,7 +1307,9 @@
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
    "best_date": "2020-06-09",
-   "asof": "2026-11-17"
+   "asof": "2026-11-17",
+   "last": "1/5",
+   "last_draw": "3,10,19,28,33 + 21"
   }
  ]
 }

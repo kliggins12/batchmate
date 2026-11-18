@@ -62,10 +62,11 @@
     <select id="tightSel"></select>
     <span class="meta" id="status"></span>
   </div>
+  <div class="meta" id="latestDraws" style="margin-bottom:10px"></div>
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th data-tk="ticket">Ticket</th><th data-tk="best">Best match</th><th data-tk="best_date">Best on</th><th data-tk="asof">Data thru</th><th data-tk="game">Game</th><th data-tk="detail">Source / stats</th>
+      <th data-tk="ticket">Ticket</th><th data-tk="best">Best match</th><th data-tk="best_date">Best on</th><th data-tk="last">Latest</th><th data-tk="asof">Data thru</th><th data-tk="game">Game</th><th data-tk="detail">Source / stats</th>
     </tr></thead>
     <tbody id="tightbody"></tbody>
   </table>
@@ -157,12 +158,17 @@ async function load() {
     '<option value="">all games ('+TIGHT.tickets.length+')</option>' +
     games.map(g=>`<option value="${g}">${g} (${TIGHT.tickets.filter(t=>t.game===g).length})</option>`).join('');
   document.getElementById('tightSel').onchange = renderTight;
+  const seenG = {};
+  TIGHT.tickets.forEach(t=>{ if(t.last_draw && !seenG[t.game]) seenG[t.game]=t.last_draw; });
+  document.getElementById('latestDraws').innerHTML =
+    '<b style="color:var(--gold)">Latest draws:</b> ' +
+    Object.entries(seenG).map(([g,d])=>`${g}: <span class="ticket" style="font-size:13px">${d}</span>`).join(' &nbsp;·&nbsp; ');
   render();
   renderTight();
 }
 
 function tightVal(t, k) {
-  if (k === 'best') {
+  if (k === 'best' || k === 'last') {
     const m = (t.best||'').match(/(\d+)\/(\d+)/);
     return m ? (+m[1])/(+m[2]) : -1;
   }
@@ -186,6 +192,7 @@ function renderTight() {
       <td class="ticket">${t.ticket}</td>
       <td class="${(()=>{const m=(t.best||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.best||'—'}</td>
       <td class="meta">${t.best_date||'—'}</td>
+      <td class="${(()=>{const m=(t.last||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.last||'—'}</td>
       <td class="meta">${t.asof||'—'}</td>
       <td>${t.game}</td>
       <td class="meta">${t.detail}</td>
