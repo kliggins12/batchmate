@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="google-adsense-account" content="ca-pub-7028777519947527">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Batchmate — Texas Lottery Ticket Analyzer</title>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7028777519947527"
@@ -47,6 +48,14 @@
   <div class="meta" id="genmeta"></div>
 </header>
 <main>
+  <p class="meta" style="margin:0 0 14px;font-size:14px;line-height:1.5">
+    <b style="color:var(--gold)">Batchmate</b> ranks tickets by historical win streaks and droughts
+    across official Texas Lottery draw data. The <b>Tightest tickets</b> table shows the latest
+    generated batches — auto-window align picks, rolling rare-piece sets, and
+    Powerball/Mega Millions numbers — for Texas players only.
+    Past results do not change the odds of future random draws; every ticket remains equally likely.
+    This is a descriptive analysis tool, not a prediction system. Please play responsibly.
+  </p>
   <div class="adslot" id="ad-top">ADVERTISEMENT</div>
   <h2>Tightest tickets — current generated batches</h2>
   <div class="controls">
@@ -56,12 +65,34 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th>Ticket</th><th>Best match</th><th>Game</th><th>Source / stats</th>
+      <th>Ticket</th><th>Best match</th><th>Best on</th><th>Data thru</th><th>Game</th><th>Source / stats</th>
     </tr></thead>
     <tbody id="tightbody"></tbody>
   </table>
   </div>
   <div class="adslot" id="ad-mid">ADVERTISEMENT</div>
+  <details style="margin-top:20px">
+    <summary style="cursor:pointer;color:var(--gold);font-size:15px;font-weight:600">How Batchmate works — methodology &amp; honest math (click to expand)</summary>
+    <div class="meta" style="margin-top:10px;line-height:1.6;font-size:13.5px">
+      <p><b>What this is:</b> Batchmate downloads official Texas Lottery draw results for every
+      draw game and generates rolling ticket batches. The "Tightest tickets" table shows the
+      latest picks; "Best match" is the closest that exact ticket has ever come to a real draw
+      (e.g. <code>11/12</code> on All or Nothing is the $500 tier), "Best on" is the most recent
+      date that match occurred, and "Data thru" is the latest draw analyzed.</p>
+      <p><b>How tickets are built:</b> All or Nothing tickets come from an explicit rule engine
+      over sliding windows of recent draws — absent-number anchors when coverage gaps exist,
+      frequency bands when they don't, odd/even signature matching, and automatic window sizing
+      per draw session (the <code>W=</code> label). Because a draw and its complement are
+      equivalent, only the 1,352,078 combinations containing the number 1 are tracked. Other
+      games use recent-window frequency bands and rare-number anchors; Powerball and Mega
+      Millions are filtered to the current number matrix era.</p>
+      <p><b>The honest math:</b> Lottery draws are independent random events. Historical streaks,
+      droughts, and frequency patterns describe the past — they do not change the probability of
+      the next draw, and every ticket remains equally likely. Batchmate is a descriptive
+      analysis tool for organizing number choices, not a prediction system. Please play
+      responsibly.</p>
+    </div>
+  </details>
   <details style="margin-top:20px">
     <summary style="cursor:pointer;color:var(--dim);font-size:14px">Streak analysis — all combos by historical streaks (click to expand)</summary>
     <div class="controls" style="margin-top:12px">
@@ -85,11 +116,8 @@
   </details>
   <div class="adslot" id="ad-bottom">ADVERTISEMENT</div>
   <div class="disclaimer">
-    Batchmate ranks tickets by historical win streaks and droughts across official Texas Lottery draw data.
-    The "Tightest tickets" section shows the latest generated batches (auto-window align picks, rolling rare-piece sets,
-    and Powerball/Mega Millions numbers) — all Texas Lottery games only.
-    Past results do not change the odds of future random draws — every ticket remains equally likely.
-    This is a descriptive analysis tool, not a prediction system. Please play responsibly.
+    Data refreshed automatically. Historical analysis describes past draws only — it does not predict future results.
+    Please play responsibly.
   </div>
 </main>
 <script>
@@ -126,6 +154,8 @@ function renderTight() {
     <tr>
       <td class="ticket">${t.ticket}</td>
       <td class="${(()=>{const m=(t.best||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.best||'—'}</td>
+      <td class="meta">${t.best_date||'—'}</td>
+      <td class="meta">${t.asof||'—'}</td>
       <td>${t.game}</td>
       <td class="meta">${t.detail}</td>
     </tr>`).join('');
