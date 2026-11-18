@@ -43,16 +43,10 @@
   <div class="meta" id="genmeta"></div>
 </header>
 <main>
-  <div class="controls">
-    <select id="gameSel"></select>
-    <label class="meta">show <input id="topN" type="number" value="100" min="10" max="300" style="width:70px"> tickets</label>
-    <button id="refresh">Rebuild data</button>
-    <span class="meta" id="status"></span>
-  </div>
-  <div class="statcards" id="cards"></div>
   <h2>Tightest tickets — current generated batches</h2>
   <div class="controls">
     <select id="tightSel"></select>
+    <span class="meta" id="status"></span>
   </div>
   <div class="tightwrap">
   <table>
@@ -62,18 +56,27 @@
     <tbody id="tightbody"></tbody>
   </table>
   </div>
-  <table>
-    <thead><tr>
-      <th data-k="ticket">Ticket</th>
-      <th data-k="best_streak">Best streak</th>
-      <th data-k="total_wins">Total wins</th>
-      <th data-k="last_win">Last win</th>
-      <th data-k="drought">Drought (draws)</th>
-      <th data-k="current_streak">Current streak</th>
-      <th data-k="streak_start">Streak span</th>
-    </tr></thead>
-    <tbody id="tbody"></tbody>
-  </table>
+  <details style="margin-top:20px">
+    <summary style="cursor:pointer;color:var(--dim);font-size:14px">Streak analysis — all combos by historical streaks (click to expand)</summary>
+    <div class="controls" style="margin-top:12px">
+      <select id="gameSel"></select>
+      <label class="meta">show <input id="topN" type="number" value="100" min="10" max="300" style="width:70px"> tickets</label>
+      <button id="refresh">Rebuild data</button>
+    </div>
+    <div class="statcards" id="cards"></div>
+    <table>
+      <thead><tr>
+        <th data-k="ticket">Ticket</th>
+        <th data-k="best_streak">Best streak</th>
+        <th data-k="total_wins">Total wins</th>
+        <th data-k="last_win">Last win</th>
+        <th data-k="drought">Drought (draws)</th>
+        <th data-k="current_streak">Current streak</th>
+        <th data-k="streak_start">Streak span</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </details>
   <div class="disclaimer">
     Batchmate ranks tickets by historical win streaks and droughts across official Texas Lottery draw data.
     The "Tightest tickets" section shows the latest generated batches (auto-window align picks, rolling rare-piece sets,
