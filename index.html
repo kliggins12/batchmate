@@ -56,7 +56,7 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th>Ticket</th><th>Best match</th><th>Game</th><th>Source / stats</th>
+      <th>Ticket</th><th>Best match</th><th>Best on</th><th>Data thru</th><th>Game</th><th>Source / stats</th>
     </tr></thead>
     <tbody id="tightbody"></tbody>
   </table>
@@ -126,6 +126,8 @@ function renderTight() {
     <tr>
       <td class="ticket">${t.ticket}</td>
       <td class="${(()=>{const m=(t.best||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.best||'—'}</td>
+      <td class="meta">${t.best_date||'—'}</td>
+      <td class="meta">${t.asof||'—'}</td>
       <td>${t.game}</td>
       <td class="meta">${t.detail}</td>
     </tr>`).join('');
