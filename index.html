@@ -207,8 +207,8 @@ async function load() {
   document.getElementById('latestDraws').innerHTML =
     '<b style="color:var(--gold)">Latest draws:</b> ' +
     Object.entries(byGame).map(([g,m])=>{
-      const parts = Object.entries(m).map(([sess,d])=>
-        `<span class="ticket" style="font-size:13px">${sess? sess+': ' : ''}${d}</span>`);
+      const parts = Object.values(m).map(d=>
+        `<span class="ticket" style="font-size:13px">${d}</span>`);
       return `${g}: ${parts.join(' · ')}`;
     }).join(' &nbsp;|&nbsp; ');
   render();
