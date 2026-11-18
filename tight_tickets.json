@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:47:16",
+ "generated": "2026-11-18T16:48:34",
  "tickets": [
   {
    "game": "All or Nothing",
@@ -172,7 +172,7 @@
   {
    "game": "Pick 3",
    "ticket": "045",
-   "detail": "morning box wins=37 drought=48",
+   "detail": "box wins=37 drought=48",
    "best": "3/3",
    "best_date": "9/23/2026",
    "asof": "11/18/2026",
@@ -184,7 +184,7 @@
   {
    "game": "Pick 3",
    "ticket": "257",
-   "detail": "morning box wins=37 drought=3",
+   "detail": "box wins=37 drought=3",
    "best": "3/3",
    "best_date": "11/14/2026",
    "asof": "11/18/2026",
@@ -196,7 +196,7 @@
   {
    "game": "Pick 3",
    "ticket": "028",
-   "detail": "morning box wins=36 drought=45",
+   "detail": "box wins=36 drought=45",
    "best": "3/3",
    "best_date": "9/26/2026",
    "asof": "11/18/2026",
@@ -208,7 +208,7 @@
   {
    "game": "Pick 3",
    "ticket": "589",
-   "detail": "morning box wins=35 drought=272",
+   "detail": "box wins=35 drought=272",
    "best": "3/3",
    "best_date": "1/5/2026",
    "asof": "11/18/2026",
@@ -220,7 +220,7 @@
   {
    "game": "Pick 3",
    "ticket": "248",
-   "detail": "morning box wins=34 drought=82",
+   "detail": "box wins=34 drought=82",
    "best": "3/3",
    "best_date": "8/14/2026",
    "asof": "11/18/2026",
@@ -232,7 +232,7 @@
   {
    "game": "Pick 3",
    "ticket": "238",
-   "detail": "morning box wins=34 drought=73",
+   "detail": "box wins=34 drought=73",
    "best": "3/3",
    "best_date": "8/25/2026",
    "asof": "11/18/2026",
@@ -244,7 +244,7 @@
   {
    "game": "Pick 3",
    "ticket": "023",
-   "detail": "morning box wins=34 drought=19",
+   "detail": "box wins=34 drought=19",
    "best": "3/3",
    "best_date": "10/27/2026",
    "asof": "11/18/2026",
@@ -256,7 +256,7 @@
   {
    "game": "Pick 3",
    "ticket": "269",
-   "detail": "morning box wins=33 drought=127",
+   "detail": "box wins=33 drought=127",
    "best": "3/3",
    "best_date": "6/23/2026",
    "asof": "11/18/2026",
@@ -268,7 +268,7 @@
   {
    "game": "Pick 3",
    "ticket": "146",
-   "detail": "morning box wins=33 drought=70",
+   "detail": "box wins=33 drought=70",
    "best": "3/3",
    "best_date": "8/28/2026",
    "asof": "11/18/2026",
@@ -280,7 +280,7 @@
   {
    "game": "Daily 4",
    "ticket": "0458",
-   "detail": "morning box wins=20 drought=394",
+   "detail": "box wins=20 drought=394",
    "best": "4/4",
    "best_date": "8/15/2025",
    "asof": "11/18/2026",
@@ -292,7 +292,7 @@
   {
    "game": "Daily 4",
    "ticket": "0789",
-   "detail": "morning box wins=17 drought=179",
+   "detail": "box wins=17 drought=179",
    "best": "4/4",
    "best_date": "4/23/2026",
    "asof": "11/18/2026",
@@ -304,7 +304,7 @@
   {
    "game": "Daily 4",
    "ticket": "0678",
-   "detail": "morning box wins=16 drought=253",
+   "detail": "box wins=16 drought=253",
    "best": "4/4",
    "best_date": "1/27/2026",
    "asof": "11/18/2026",
@@ -316,7 +316,7 @@
   {
    "game": "Daily 4",
    "ticket": "0579",
-   "detail": "morning box wins=16 drought=238",
+   "detail": "box wins=16 drought=238",
    "best": "4/4",
    "best_date": "2/13/2026",
    "asof": "11/18/2026",
@@ -328,7 +328,7 @@
   {
    "game": "Daily 4",
    "ticket": "0167",
-   "detail": "morning box wins=16 drought=160",
+   "detail": "box wins=16 drought=160",
    "best": "4/4",
    "best_date": "5/15/2026",
    "asof": "11/18/2026",
@@ -340,7 +340,7 @@
   {
    "game": "Daily 4",
    "ticket": "0125",
-   "detail": "morning box wins=16 drought=154",
+   "detail": "box wins=16 drought=154",
    "best": "4/4",
    "best_date": "5/22/2026",
    "asof": "11/18/2026",
@@ -352,7 +352,7 @@
   {
    "game": "Daily 4",
    "ticket": "2589",
-   "detail": "morning box wins=16 drought=138",
+   "detail": "box wins=16 drought=138",
    "best": "4/4",
    "best_date": "6/10/2026",
    "asof": "11/18/2026",
@@ -364,7 +364,7 @@
   {
    "game": "Daily 4",
    "ticket": "0258",
-   "detail": "morning box wins=16 drought=62",
+   "detail": "box wins=16 drought=62",
    "best": "4/4",
    "best_date": "9/7/2026",
    "asof": "11/18/2026",
@@ -376,7 +376,7 @@
   {
    "game": "Daily 4",
    "ticket": "1247",
-   "detail": "morning box wins=15 drought=381",
+   "detail": "box wins=15 drought=381",
    "best": "4/4",
    "best_date": "8/30/2025",
    "asof": "11/18/2026",
@@ -388,7 +388,7 @@
   {
    "game": "Pick 3",
    "ticket": "269",
-   "detail": "day box wins=58 drought=12",
+   "detail": "box wins=58 drought=12",
    "best": "3/3",
    "best_date": "11/4/2026",
    "asof": "11/18/2026",
@@ -400,7 +400,7 @@
   {
    "game": "Pick 3",
    "ticket": "016",
-   "detail": "day box wins=57 drought=73",
+   "detail": "box wins=57 drought=73",
    "best": "3/3",
    "best_date": "8/25/2026",
    "asof": "11/18/2026",
@@ -412,7 +412,7 @@
   {
    "game": "Pick 3",
    "ticket": "126",
-   "detail": "day box wins=56 drought=40",
+   "detail": "box wins=56 drought=40",
    "best": "3/3",
    "best_date": "10/2/2026",
    "asof": "11/18/2026",
@@ -424,7 +424,7 @@
   {
    "game": "Pick 3",
    "ticket": "059",
-   "detail": "day box wins=55 drought=218",
+   "detail": "box wins=55 drought=218",
    "best": "3/3",
    "best_date": "3/9/2026",
    "asof": "11/18/2026",
@@ -436,7 +436,7 @@
   {
    "game": "Pick 3",
    "ticket": "458",
-   "detail": "day box wins=55 drought=95",
+   "detail": "box wins=55 drought=95",
    "best": "3/3",
    "best_date": "7/30/2026",
    "asof": "11/18/2026",
@@ -448,7 +448,7 @@
   {
    "game": "Pick 3",
    "ticket": "125",
-   "detail": "day box wins=55 drought=49",
+   "detail": "box wins=55 drought=49",
    "best": "3/3",
    "best_date": "9/22/2026",
    "asof": "11/18/2026",
@@ -460,7 +460,7 @@
   {
    "game": "Pick 3",
    "ticket": "234",
-   "detail": "day box wins=55 drought=7",
+   "detail": "box wins=55 drought=7",
    "best": "3/3",
    "best_date": "11/10/2026",
    "asof": "11/18/2026",
@@ -472,7 +472,7 @@
   {
    "game": "Pick 3",
    "ticket": "569",
-   "detail": "day box wins=54 drought=264",
+   "detail": "box wins=54 drought=264",
    "best": "3/3",
    "best_date": "1/14/2026",
    "asof": "11/18/2026",
@@ -484,7 +484,7 @@
   {
    "game": "Pick 3",
    "ticket": "489",
-   "detail": "day box wins=54 drought=108",
+   "detail": "box wins=54 drought=108",
    "best": "3/3",
    "best_date": "7/15/2026",
    "asof": "11/18/2026",
@@ -496,7 +496,7 @@
   {
    "game": "Daily 4",
    "ticket": "1789",
-   "detail": "day box wins=26 drought=6",
+   "detail": "box wins=26 drought=6",
    "best": "4/4",
    "best_date": "11/11/2026",
    "asof": "11/18/2026",
@@ -508,7 +508,7 @@
   {
    "game": "Daily 4",
    "ticket": "2358",
-   "detail": "day box wins=23 drought=68",
+   "detail": "box wins=23 drought=68",
    "best": "4/4",
    "best_date": "8/31/2026",
    "asof": "11/18/2026",
@@ -520,7 +520,7 @@
   {
    "game": "Daily 4",
    "ticket": "2569",
-   "detail": "day box wins=22 drought=500",
+   "detail": "box wins=22 drought=500",
    "best": "4/4",
    "best_date": "4/14/2025",
    "asof": "11/18/2026",
@@ -532,7 +532,7 @@
   {
    "game": "Daily 4",
    "ticket": "0789",
-   "detail": "day box wins=22 drought=70",
+   "detail": "box wins=22 drought=70",
    "best": "4/4",
    "best_date": "8/28/2026",
    "asof": "11/18/2026",
@@ -544,7 +544,7 @@
   {
    "game": "Daily 4",
    "ticket": "2368",
-   "detail": "day box wins=21 drought=809",
+   "detail": "box wins=21 drought=809",
    "best": "4/4",
    "best_date": "4/18/2024",
    "asof": "11/18/2026",
@@ -556,7 +556,7 @@
   {
    "game": "Daily 4",
    "ticket": "1369",
-   "detail": "day box wins=21 drought=734",
+   "detail": "box wins=21 drought=734",
    "best": "4/4",
    "best_date": "7/15/2024",
    "asof": "11/18/2026",
@@ -568,7 +568,7 @@
   {
    "game": "Daily 4",
    "ticket": "2588",
-   "detail": "day box wins=21 drought=135",
+   "detail": "box wins=21 drought=135",
    "best": "4/4",
    "best_date": "6/13/2026",
    "asof": "11/18/2026",
@@ -580,7 +580,7 @@
   {
    "game": "Daily 4",
    "ticket": "1569",
-   "detail": "day box wins=20 drought=931",
+   "detail": "box wins=20 drought=931",
    "best": "4/4",
    "best_date": "11/28/2023",
    "asof": "11/18/2026",
@@ -592,7 +592,7 @@
   {
    "game": "Daily 4",
    "ticket": "0267",
-   "detail": "day box wins=20 drought=197",
+   "detail": "box wins=20 drought=197",
    "best": "4/4",
    "best_date": "4/2/2026",
    "asof": "11/18/2026",
@@ -604,7 +604,7 @@
   {
    "game": "Pick 3",
    "ticket": "237",
-   "detail": "evening box wins=36 drought=15",
+   "detail": "box wins=36 drought=15",
    "best": "3/3",
    "best_date": "10/30/2026",
    "asof": "11/17/2026",
@@ -616,7 +616,7 @@
   {
    "game": "Pick 3",
    "ticket": "389",
-   "detail": "evening box wins=35 drought=2",
+   "detail": "box wins=35 drought=2",
    "best": "3/3",
    "best_date": "11/14/2026",
    "asof": "11/17/2026",
@@ -628,7 +628,7 @@
   {
    "game": "Pick 3",
    "ticket": "149",
-   "detail": "evening box wins=34 drought=261",
+   "detail": "box wins=34 drought=261",
    "best": "3/3",
    "best_date": "1/16/2026",
    "asof": "11/17/2026",
@@ -640,7 +640,7 @@
   {
    "game": "Pick 3",
    "ticket": "067",
-   "detail": "evening box wins=34 drought=246",
+   "detail": "box wins=34 drought=246",
    "best": "3/3",
    "best_date": "2/3/2026",
    "asof": "11/17/2026",
@@ -652,7 +652,7 @@
   {
    "game": "Pick 3",
    "ticket": "027",
-   "detail": "evening box wins=34 drought=107",
+   "detail": "box wins=34 drought=107",
    "best": "3/3",
    "best_date": "7/15/2026",
    "asof": "11/17/2026",
@@ -664,7 +664,7 @@
   {
    "game": "Pick 3",
    "ticket": "578",
-   "detail": "evening box wins=34 drought=88",
+   "detail": "box wins=34 drought=88",
    "best": "3/3",
    "best_date": "8/6/2026",
    "asof": "11/17/2026",
@@ -676,7 +676,7 @@
   {
    "game": "Pick 3",
    "ticket": "036",
-   "detail": "evening box wins=34 drought=56",
+   "detail": "box wins=34 drought=56",
    "best": "3/3",
    "best_date": "9/12/2026",
    "asof": "11/17/2026",
@@ -688,7 +688,7 @@
   {
    "game": "Pick 3",
    "ticket": "468",
-   "detail": "evening box wins=33 drought=359",
+   "detail": "box wins=33 drought=359",
    "best": "3/3",
    "best_date": "9/24/2025",
    "asof": "11/17/2026",
@@ -700,7 +700,7 @@
   {
    "game": "Pick 3",
    "ticket": "179",
-   "detail": "evening box wins=32 drought=400",
+   "detail": "box wins=32 drought=400",
    "best": "3/3",
    "best_date": "8/7/2025",
    "asof": "11/17/2026",
@@ -712,7 +712,7 @@
   {
    "game": "Daily 4",
    "ticket": "0126",
-   "detail": "evening box wins=22 drought=339",
+   "detail": "box wins=22 drought=339",
    "best": "4/4",
    "best_date": "10/17/2025",
    "asof": "11/17/2026",
@@ -724,7 +724,7 @@
   {
    "game": "Daily 4",
    "ticket": "0469",
-   "detail": "evening box wins=19 drought=79",
+   "detail": "box wins=19 drought=79",
    "best": "4/4",
    "best_date": "8/17/2026",
    "asof": "11/17/2026",
@@ -736,7 +736,7 @@
   {
    "game": "Daily 4",
    "ticket": "0146",
-   "detail": "evening box wins=19 drought=43",
+   "detail": "box wins=19 drought=43",
    "best": "4/4",
    "best_date": "9/28/2026",
    "asof": "11/17/2026",
@@ -748,7 +748,7 @@
   {
    "game": "Daily 4",
    "ticket": "0567",
-   "detail": "evening box wins=17 drought=109",
+   "detail": "box wins=17 drought=109",
    "best": "4/4",
    "best_date": "7/13/2026",
    "asof": "11/17/2026",
@@ -760,7 +760,7 @@
   {
    "game": "Daily 4",
    "ticket": "1479",
-   "detail": "evening box wins=15 drought=983",
+   "detail": "box wins=15 drought=983",
    "best": "4/4",
    "best_date": "9/27/2023",
    "asof": "11/17/2026",
@@ -772,7 +772,7 @@
   {
    "game": "Daily 4",
    "ticket": "1249",
-   "detail": "evening box wins=15 drought=939",
+   "detail": "box wins=15 drought=939",
    "best": "4/4",
    "best_date": "11/17/2023",
    "asof": "11/17/2026",
@@ -784,7 +784,7 @@
   {
    "game": "Daily 4",
    "ticket": "2569",
-   "detail": "evening box wins=15 drought=170",
+   "detail": "box wins=15 drought=170",
    "best": "4/4",
    "best_date": "5/2/2026",
    "asof": "11/17/2026",
@@ -796,7 +796,7 @@
   {
    "game": "Daily 4",
    "ticket": "2567",
-   "detail": "evening box wins=15 drought=94",
+   "detail": "box wins=15 drought=94",
    "best": "4/4",
    "best_date": "7/30/2026",
    "asof": "11/17/2026",
@@ -808,7 +808,7 @@
   {
    "game": "Daily 4",
    "ticket": "0127",
-   "detail": "evening box wins=15 drought=41",
+   "detail": "box wins=15 drought=41",
    "best": "4/4",
    "best_date": "9/30/2026",
    "asof": "11/17/2026",
@@ -820,7 +820,7 @@
   {
    "game": "Pick 3",
    "ticket": "169",
-   "detail": "night box wins=85 drought=26",
+   "detail": "box wins=85 drought=26",
    "best": "3/3",
    "best_date": "10/17/2026",
    "asof": "11/17/2026",
@@ -832,7 +832,7 @@
   {
    "game": "Pick 3",
    "ticket": "279",
-   "detail": "night box wins=82 drought=202",
+   "detail": "box wins=82 drought=202",
    "best": "3/3",
    "best_date": "3/26/2026",
    "asof": "11/17/2026",
@@ -844,7 +844,7 @@
   {
    "game": "Pick 3",
    "ticket": "678",
-   "detail": "night box wins=82 drought=105",
+   "detail": "box wins=82 drought=105",
    "best": "3/3",
    "best_date": "7/17/2026",
    "asof": "11/17/2026",
@@ -856,7 +856,7 @@
   {
    "game": "Pick 3",
    "ticket": "345",
-   "detail": "night box wins=80 drought=296",
+   "detail": "box wins=80 drought=296",
    "best": "3/3",
    "best_date": "12/6/2025",
    "asof": "11/17/2026",
@@ -868,7 +868,7 @@
   {
    "game": "Pick 3",
    "ticket": "378",
-   "detail": "night box wins=79 drought=90",
+   "detail": "box wins=79 drought=90",
    "best": "3/3",
    "best_date": "8/4/2026",
    "asof": "11/17/2026",
@@ -880,7 +880,7 @@
   {
    "game": "Pick 3",
    "ticket": "157",
-   "detail": "night box wins=77 drought=74",
+   "detail": "box wins=77 drought=74",
    "best": "3/3",
    "best_date": "8/22/2026",
    "asof": "11/17/2026",
@@ -892,7 +892,7 @@
   {
    "game": "Pick 3",
    "ticket": "148",
-   "detail": "night box wins=77 drought=51",
+   "detail": "box wins=77 drought=51",
    "best": "3/3",
    "best_date": "9/18/2026",
    "asof": "11/17/2026",
@@ -904,7 +904,7 @@
   {
    "game": "Pick 3",
    "ticket": "389",
-   "detail": "night box wins=76 drought=44",
+   "detail": "box wins=76 drought=44",
    "best": "3/3",
    "best_date": "9/26/2026",
    "asof": "11/17/2026",
@@ -916,7 +916,7 @@
   {
    "game": "Pick 3",
    "ticket": "158",
-   "detail": "night box wins=76 drought=17",
+   "detail": "box wins=76 drought=17",
    "best": "3/3",
    "best_date": "10/28/2026",
    "asof": "11/17/2026",
@@ -928,7 +928,7 @@
   {
    "game": "Daily 4",
    "ticket": "1249",
-   "detail": "night box wins=29 drought=204",
+   "detail": "box wins=29 drought=204",
    "best": "4/4",
    "best_date": "3/24/2026",
    "asof": "11/17/2026",
@@ -940,7 +940,7 @@
   {
    "game": "Daily 4",
    "ticket": "0347",
-   "detail": "night box wins=26 drought=6",
+   "detail": "box wins=26 drought=6",
    "best": "4/4",
    "best_date": "11/10/2026",
    "asof": "11/17/2026",
@@ -952,7 +952,7 @@
   {
    "game": "Daily 4",
    "ticket": "0568",
-   "detail": "night box wins=24 drought=70",
+   "detail": "box wins=24 drought=70",
    "best": "4/4",
    "best_date": "8/27/2026",
    "asof": "11/17/2026",
@@ -964,7 +964,7 @@
   {
    "game": "Daily 4",
    "ticket": "1369",
-   "detail": "night box wins=23 drought=239",
+   "detail": "box wins=23 drought=239",
    "best": "4/4",
    "best_date": "2/11/2026",
    "asof": "11/17/2026",
@@ -976,7 +976,7 @@
   {
    "game": "Daily 4",
    "ticket": "1569",
-   "detail": "night box wins=23 drought=144",
+   "detail": "box wins=23 drought=144",
    "best": "4/4",
    "best_date": "6/2/2026",
    "asof": "11/17/2026",
@@ -988,7 +988,7 @@
   {
    "game": "Daily 4",
    "ticket": "3469",
-   "detail": "night box wins=23 drought=99",
+   "detail": "box wins=23 drought=99",
    "best": "4/4",
    "best_date": "7/24/2026",
    "asof": "11/17/2026",
@@ -1000,7 +1000,7 @@
   {
    "game": "Daily 4",
    "ticket": "3689",
-   "detail": "night box wins=22 drought=574",
+   "detail": "box wins=22 drought=574",
    "best": "4/4",
    "best_date": "1/16/2025",
    "asof": "11/17/2026",
@@ -1012,7 +1012,7 @@
   {
    "game": "Daily 4",
    "ticket": "1368",
-   "detail": "night box wins=22 drought=511",
+   "detail": "box wins=22 drought=511",
    "best": "4/4",
    "best_date": "3/31/2025",
    "asof": "11/17/2026",
@@ -1024,7 +1024,7 @@
   {
    "game": "Daily 4",
    "ticket": "0369",
-   "detail": "night box wins=22 drought=329",
+   "detail": "box wins=22 drought=329",
    "best": "4/4",
    "best_date": "10/29/2025",
    "asof": "11/17/2026",
