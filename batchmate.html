@@ -158,11 +158,19 @@ async function load() {
     '<option value="">all games ('+TIGHT.tickets.length+')</option>' +
     games.map(g=>`<option value="${g}">${g} (${TIGHT.tickets.filter(t=>t.game===g).length})</option>`).join('');
   document.getElementById('tightSel').onchange = renderTight;
-  const seenG = {};
-  TIGHT.tickets.forEach(t=>{ if(t.last_draw && !seenG[t.game]) seenG[t.game]=t.last_draw; });
+  const byGame = {};
+  TIGHT.tickets.forEach(t=>{
+    if(!t.last_draw) return;
+    const g = byGame[t.game] = byGame[t.game] || {};
+    g[t.sess || ''] = t.last_draw;
+  });
   document.getElementById('latestDraws').innerHTML =
     '<b style="color:var(--gold)">Latest draws:</b> ' +
-    Object.entries(seenG).map(([g,d])=>`${g}: <span class="ticket" style="font-size:13px">${d}</span>`).join(' &nbsp;·&nbsp; ');
+    Object.entries(byGame).map(([g,m])=>{
+      const parts = Object.entries(m).map(([sess,d])=>
+        `<span class="ticket" style="font-size:13px">${sess? sess+': ' : ''}${d}</span>`);
+      return `${g}: ${parts.join(' · ')}`;
+    }).join(' &nbsp;|&nbsp; ');
   render();
   renderTight();
 }
