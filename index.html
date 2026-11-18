@@ -31,11 +31,15 @@
   .warn { color:#ff9d6b; }
   .disclaimer { margin-top:16px; color:var(--dim); font-size:12.5px; border-top:1px solid #2a3450; padding-top:12px; }
   .loading { color:var(--dim); padding:40px; text-align:center; }
+  .badge { background:#7a2d0d; color:#ffd9b3; border:1px solid #a34a1f; border-radius:20px; padding:3px 12px; font-size:12px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; }
+  h2 { font-size:16px; margin:22px 0 10px; color:var(--gold); }
+  .tightwrap { overflow-x:auto; }
 </style>
 </head>
 <body>
 <header>
   <h1>Batch<span>mate</span></h1>
+  <span class="badge">Texas players only</span>
   <div class="meta" id="genmeta"></div>
 </header>
 <main>
@@ -46,6 +50,18 @@
     <span class="meta" id="status"></span>
   </div>
   <div class="statcards" id="cards"></div>
+  <h2>Tightest tickets — current generated batches</h2>
+  <div class="controls">
+    <select id="tightSel"></select>
+  </div>
+  <div class="tightwrap">
+  <table>
+    <thead><tr>
+      <th>Ticket</th><th>Game</th><th>Source / stats</th>
+    </tr></thead>
+    <tbody id="tightbody"></tbody>
+  </table>
+  </div>
   <table>
     <thead><tr>
       <th data-k="ticket">Ticket</th>
@@ -60,12 +76,14 @@
   </table>
   <div class="disclaimer">
     Batchmate ranks tickets by historical win streaks and droughts across official Texas Lottery draw data.
+    The "Tightest tickets" section shows the latest generated batches (auto-window align picks, rolling rare-piece sets,
+    and Powerball/Mega Millions numbers) — all Texas Lottery games only.
     Past results do not change the odds of future random draws — every ticket remains equally likely.
     This is a descriptive analysis tool, not a prediction system. Please play responsibly.
   </div>
 </main>
 <script>
-let DATA = null, sortKey = 'best_streak', sortDir = -1;
+let DATA = null, TIGHT = null, sortKey = 'best_streak', sortDir = -1;
 
 async function load() {
   document.getElementById('status').textContent = 'loading data…';
@@ -75,10 +93,31 @@ async function load() {
     const r = await fetch('batchmate_data.json');
     DATA = await r.json();
   }
+  try {
+    const tr = await fetch('tight_tickets.json');
+    TIGHT = await tr.json();
+  } catch (e) { TIGHT = { tickets: [] }; }
   document.getElementById('genmeta').textContent = 'generated ' + DATA.generated;
   const sel = document.getElementById('gameSel');
   sel.innerHTML = DATA.games.map((g,i)=>`<option value="${i}">${g.name} — ${g.pick} (${g.n_tickets.toLocaleString()} combos, ${g.n_draws.toLocaleString()} draws)</option>`).join('');
+  const games = [...new Set(TIGHT.tickets.map(t=>t.game))];
+  document.getElementById('tightSel').innerHTML =
+    '<option value="">all games ('+TIGHT.tickets.length+')</option>' +
+    games.map(g=>`<option value="${g}">${g} (${TIGHT.tickets.filter(t=>t.game===g).length})</option>`).join('');
+  document.getElementById('tightSel').onchange = renderTight;
   render();
+  renderTight();
+}
+
+function renderTight() {
+  const f = document.getElementById('tightSel').value;
+  const rows = TIGHT.tickets.filter(t=>!f || t.game===f);
+  document.getElementById('tightbody').innerHTML = rows.map(t=>`
+    <tr>
+      <td class="ticket">${t.ticket}</td>
+      <td>${t.game}</td>
+      <td class="meta">${t.detail}</td>
+    </tr>`).join('');
 }
 
 function game() { return DATA.games[+document.getElementById('gameSel').value]; }
