@@ -78,6 +78,15 @@
     <tbody id="tightbody"></tbody>
   </table>
   </div>
+  <h2>Doing well today — best matches on the latest draw</h2>
+  <div class="tightwrap">
+  <table>
+    <thead><tr>
+      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Latest draw</th><th>Source / stats</th>
+    </tr></thead>
+    <tbody id="hotbody"></tbody>
+  </table>
+  </div>
   <div class="adslot" id="ad-mid"><ins class="adsbygoogle"
      style="display:block"
      data-ad-format="autorelaxed"
@@ -194,6 +203,7 @@ async function load() {
     }).join(' &nbsp;|&nbsp; ');
   render();
   renderTight();
+  renderHot();
 }
 
 function tightVal(t, k) {
@@ -224,6 +234,29 @@ function renderTight() {
       <td class="${(()=>{const m=(t.last||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.last||'—'}</td>
       <td class="meta">${t.asof||'—'}</td>
       <td>${t.game}</td>
+      <td class="meta">${t.detail}</td>
+    </tr>`).join('');
+}
+
+function renderHot() {
+  const byGame = {};
+  TIGHT.tickets.forEach(t=>{
+    const m = (t.last||'').match(/(\d+)\/(\d+)/);
+    const score = m ? (+m[1])/(+m[2]) : -1;
+    (byGame[t.game] = byGame[t.game] || []).push({t, score});
+  });
+  const rows = [];
+  Object.entries(byGame).forEach(([g, arr])=>{
+    arr.sort((a,b)=>b.score-a.score);
+    arr.slice(0,3).forEach(({t,score})=>rows.push({g, t, score}));
+  });
+  rows.sort((a,b)=>b.score-a.score || a.g.localeCompare(b.g));
+  document.getElementById('hotbody').innerHTML = rows.map(({g,t})=>`
+    <tr>
+      <td>${g}</td>
+      <td class="ticket">${t.ticket}</td>
+      <td class="${(()=>{const m=(t.last||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.last||'—'}</td>
+      <td class="meta">${t.last_draw||'—'}</td>
       <td class="meta">${t.detail}</td>
     </tr>`).join('');
 }
