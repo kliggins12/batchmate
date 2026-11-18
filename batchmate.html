@@ -50,7 +50,8 @@
 <main>
   <p class="meta" style="margin:0 0 14px;font-size:14px;line-height:1.5">
     <b style="color:var(--gold)">Batchmate</b> ranks tickets by historical win streaks and droughts
-    across official Texas Lottery draw data. The <b>Tightest tickets</b> table shows the latest
+    across official Texas Lottery draw data. <b>Doing well today</b> leads with the best
+    matches on the latest draw; <b>Tightest tickets</b> below shows the latest
     generated batches — auto-window align picks, rolling rare-piece sets, and
     Powerball/Mega Millions numbers — for Texas players only.
     Past results do not change the odds of future random draws; every ticket remains equally likely.
@@ -64,6 +65,15 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script></div>
+  <h2>Doing well today — best matches on the latest draw</h2>
+  <div class="tightwrap">
+  <table>
+    <thead><tr>
+      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Latest draw</th><th>Source / stats</th>
+    </tr></thead>
+    <tbody id="hotbody"></tbody>
+  </table>
+  </div>
   <h2>Tightest tickets — current generated batches</h2>
   <div class="controls">
     <select id="tightSel"></select>
@@ -76,15 +86,6 @@
       <th data-tk="ticket">Ticket</th><th data-tk="best">Best match</th><th data-tk="best_date">Best on</th><th data-tk="last">Latest</th><th data-tk="asof">Data thru</th><th data-tk="game">Game</th><th data-tk="detail">Source / stats</th>
     </tr></thead>
     <tbody id="tightbody"></tbody>
-  </table>
-  </div>
-  <h2>Doing well today — best matches on the latest draw</h2>
-  <div class="tightwrap">
-  <table>
-    <thead><tr>
-      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Latest draw</th><th>Source / stats</th>
-    </tr></thead>
-    <tbody id="hotbody"></tbody>
   </table>
   </div>
   <div class="adslot" id="ad-mid"><ins class="adsbygoogle"
