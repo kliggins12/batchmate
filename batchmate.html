@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Batchmate — Texas Lottery Ticket Analyzer</title>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7028777519947527"
+     crossorigin="anonymous"></script>
 <style>
   :root { --bg:#0f1420; --panel:#1a2130; --accent:#4da3ff; --gold:#ffc857; --text:#e8ecf4; --dim:#8b96ad; }
   * { box-sizing:border-box; }
@@ -65,7 +67,7 @@
     <div class="controls" style="margin-top:12px">
       <select id="gameSel"></select>
       <label class="meta">show <input id="topN" type="number" value="100" min="10" max="300" style="width:70px"> tickets</label>
-      <button id="refresh">Rebuild data</button>
+      <span class="meta">auto-refreshes</span>
     </div>
     <div class="statcards" id="cards"></div>
     <table>
@@ -170,7 +172,9 @@ document.querySelectorAll('th[data-k]').forEach(th=>{
 });
 document.getElementById('gameSel').onchange = render;
 document.getElementById('topN').onchange = render;
-document.getElementById('refresh').onclick = ()=>location.reload();
+// auto-rebuild: reload when tab becomes visible again, and every 15 min
+setInterval(()=>{ if(!document.hidden) location.reload(); }, 15*60*1000);
+document.addEventListener('visibilitychange', ()=>{ if(!document.hidden) location.reload(); });
 load().catch(e=>{document.getElementById('status').textContent='failed to load batchmate_data.json — run batchmate_build.py first';console.error(e)});
 </script>
 </body>
