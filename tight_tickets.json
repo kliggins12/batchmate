@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T16:23:37",
+ "generated": "2026-11-18T16:47:16",
  "tickets": [
   {
    "game": "All or Nothing",
@@ -10,7 +10,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,8,9,10,13,18"
   },
   {
    "game": "All or Nothing",
@@ -21,7 +22,8 @@
    "asof": "11/18/2026",
    "last": "8/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,8,9,10,11,13"
   },
   {
    "game": "All or Nothing",
@@ -32,7 +34,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,9,13,15,18,24"
   },
   {
    "game": "All or Nothing",
@@ -43,7 +46,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,9,13,19,20,21,24"
   },
   {
    "game": "All or Nothing",
@@ -54,7 +58,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,9,13,18,20,24"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -65,7 +70,8 @@
    "asof": "11/18/2026",
    "last": "6/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,9,15,18,20,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -76,7 +82,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,9,10,15,18,20,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -87,7 +94,8 @@
    "asof": "11/18/2026",
    "last": "6/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,8,9,15,18,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -98,7 +106,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,8,9,10,20,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -109,7 +118,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,9,15,18,19,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -120,7 +130,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,15,18,19,20,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -131,7 +142,8 @@
    "asof": "11/18/2026",
    "last": "7/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,8,9,10,15,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -142,7 +154,8 @@
    "asof": "11/18/2026",
    "last": "8/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,10,15,18,19,20,21"
   },
   {
    "game": "All or Nothing (rolling)",
@@ -153,7 +166,8 @@
    "asof": "11/18/2026",
    "last": "6/12",
    "last_draw": "2,3,4,6,8,11,12,14,16,17,22,23",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,4,5,6,7,8,10,15,19,20"
   },
   {
    "game": "Pick 3",
@@ -164,7 +178,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "145"
   },
   {
    "game": "Pick 3",
@@ -175,7 +190,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "057"
   },
   {
    "game": "Pick 3",
@@ -186,7 +202,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "128"
   },
   {
    "game": "Pick 3",
@@ -197,7 +214,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "089"
   },
   {
    "game": "Pick 3",
@@ -208,7 +226,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "048"
   },
   {
    "game": "Pick 3",
@@ -219,7 +238,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "028"
   },
   {
    "game": "Pick 3",
@@ -230,7 +250,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "002"
   },
   {
    "game": "Pick 3",
@@ -241,7 +262,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "069"
   },
   {
    "game": "Pick 3",
@@ -252,7 +274,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "331",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "046"
   },
   {
    "game": "Daily 4",
@@ -263,7 +286,8 @@
    "asof": "11/18/2026",
    "last": "0/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "1458"
   },
   {
    "game": "Daily 4",
@@ -274,7 +298,8 @@
    "asof": "11/18/2026",
    "last": "0/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "1789"
   },
   {
    "game": "Daily 4",
@@ -285,7 +310,8 @@
    "asof": "11/18/2026",
    "last": "0/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "1678"
   },
   {
    "game": "Daily 4",
@@ -296,7 +322,8 @@
    "asof": "11/18/2026",
    "last": "0/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "1579"
   },
   {
    "game": "Daily 4",
@@ -307,7 +334,8 @@
    "asof": "11/18/2026",
    "last": "1/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "0067"
   },
   {
    "game": "Daily 4",
@@ -318,7 +346,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "0015"
   },
   {
    "game": "Daily 4",
@@ -329,7 +358,8 @@
    "asof": "11/18/2026",
    "last": "1/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "0589"
   },
   {
    "game": "Daily 4",
@@ -340,7 +370,8 @@
    "asof": "11/18/2026",
    "last": "1/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "0058"
   },
   {
    "game": "Daily 4",
@@ -351,7 +382,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "1123",
-   "sess": "morning"
+   "sess": "morning",
+   "remake": "0147"
   },
   {
    "game": "Pick 3",
@@ -362,7 +394,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "069"
   },
   {
    "game": "Pick 3",
@@ -373,7 +406,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "116"
   },
   {
    "game": "Pick 3",
@@ -384,7 +418,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "026"
   },
   {
    "game": "Pick 3",
@@ -395,7 +430,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "009"
   },
   {
    "game": "Pick 3",
@@ -406,7 +442,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "048"
   },
   {
    "game": "Pick 3",
@@ -417,7 +454,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "012"
   },
   {
    "game": "Pick 3",
@@ -428,7 +466,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "034"
   },
   {
    "game": "Pick 3",
@@ -439,7 +478,8 @@
    "asof": "11/18/2026",
    "last": "1/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "069"
   },
   {
    "game": "Pick 3",
@@ -450,7 +490,8 @@
    "asof": "11/18/2026",
    "last": "0/3",
    "last_draw": "575",
-   "sess": "day"
+   "sess": "day",
+   "remake": "089"
   },
   {
    "game": "Daily 4",
@@ -461,7 +502,8 @@
    "asof": "11/18/2026",
    "last": "0/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0789"
   },
   {
    "game": "Daily 4",
@@ -472,7 +514,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0128"
   },
   {
    "game": "Daily 4",
@@ -483,7 +526,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0129"
   },
   {
    "game": "Daily 4",
@@ -494,7 +538,8 @@
    "asof": "11/18/2026",
    "last": "0/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "1789"
   },
   {
    "game": "Daily 4",
@@ -505,7 +550,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0128"
   },
   {
    "game": "Daily 4",
@@ -516,7 +562,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0119"
   },
   {
    "game": "Daily 4",
@@ -527,7 +574,8 @@
    "asof": "11/18/2026",
    "last": "1/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0288"
   },
   {
    "game": "Daily 4",
@@ -538,7 +586,8 @@
    "asof": "11/18/2026",
    "last": "2/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0119"
   },
   {
    "game": "Daily 4",
@@ -549,7 +598,8 @@
    "asof": "11/18/2026",
    "last": "1/4",
    "last_draw": "4635",
-   "sess": "day"
+   "sess": "day",
+   "remake": "0027"
   },
   {
    "game": "Pick 3",
@@ -560,7 +610,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "037"
   },
   {
    "game": "Pick 3",
@@ -571,7 +622,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "089"
   },
   {
    "game": "Pick 3",
@@ -582,7 +634,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "019"
   },
   {
    "game": "Pick 3",
@@ -593,7 +646,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "007"
   },
   {
    "game": "Pick 3",
@@ -604,7 +658,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "127"
   },
   {
    "game": "Pick 3",
@@ -615,7 +670,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "078"
   },
   {
    "game": "Pick 3",
@@ -626,7 +682,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "003"
   },
   {
    "game": "Pick 3",
@@ -637,7 +694,8 @@
    "asof": "11/17/2026",
    "last": "2/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "018"
   },
   {
    "game": "Pick 3",
@@ -648,7 +706,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "644",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "079"
   },
   {
    "game": "Daily 4",
@@ -659,7 +718,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "1126"
   },
   {
    "game": "Daily 4",
@@ -670,7 +730,8 @@
    "asof": "11/17/2026",
    "last": "2/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "0146"
   },
   {
    "game": "Daily 4",
@@ -681,7 +742,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "1146"
   },
   {
    "game": "Daily 4",
@@ -692,7 +754,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "1567"
   },
   {
    "game": "Daily 4",
@@ -703,7 +766,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "0147"
   },
   {
    "game": "Daily 4",
@@ -714,7 +778,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "0124"
   },
   {
    "game": "Daily 4",
@@ -725,7 +790,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "0256"
   },
   {
    "game": "Daily 4",
@@ -736,7 +802,8 @@
    "asof": "11/17/2026",
    "last": "0/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "0567"
   },
   {
    "game": "Daily 4",
@@ -747,7 +814,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "8099",
-   "sess": "evening"
+   "sess": "evening",
+   "remake": "1127"
   },
   {
    "game": "Pick 3",
@@ -758,7 +826,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "019"
   },
   {
    "game": "Pick 3",
@@ -769,7 +838,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "079"
   },
   {
    "game": "Pick 3",
@@ -780,7 +850,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "078"
   },
   {
    "game": "Pick 3",
@@ -791,7 +862,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "035"
   },
   {
    "game": "Pick 3",
@@ -802,7 +874,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "078"
   },
   {
    "game": "Pick 3",
@@ -813,7 +886,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "057"
   },
   {
    "game": "Pick 3",
@@ -824,7 +898,8 @@
    "asof": "11/17/2026",
    "last": "1/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "018"
   },
   {
    "game": "Pick 3",
@@ -835,7 +910,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "089"
   },
   {
    "game": "Pick 3",
@@ -846,7 +922,8 @@
    "asof": "11/17/2026",
    "last": "0/3",
    "last_draw": "406",
-   "sess": "night"
+   "sess": "night",
+   "remake": "058"
   },
   {
    "game": "Daily 4",
@@ -857,7 +934,8 @@
    "asof": "11/17/2026",
    "last": "2/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0119"
   },
   {
    "game": "Daily 4",
@@ -868,7 +946,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0037"
   },
   {
    "game": "Daily 4",
@@ -879,7 +958,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0068"
   },
   {
    "game": "Daily 4",
@@ -890,7 +970,8 @@
    "asof": "11/17/2026",
    "last": "0/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0369"
   },
   {
    "game": "Daily 4",
@@ -901,7 +982,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0169"
   },
   {
    "game": "Daily 4",
@@ -912,7 +994,8 @@
    "asof": "11/17/2026",
    "last": "1/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0369"
   },
   {
    "game": "Daily 4",
@@ -923,7 +1006,8 @@
    "asof": "11/17/2026",
    "last": "0/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0689"
   },
   {
    "game": "Daily 4",
@@ -934,7 +1018,8 @@
    "asof": "11/17/2026",
    "last": "0/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "0368"
   },
   {
    "game": "Daily 4",
@@ -945,7 +1030,8 @@
    "asof": "11/17/2026",
    "last": "0/4",
    "last_draw": "2524",
-   "sess": "night"
+   "sess": "night",
+   "remake": "1369"
   },
   {
    "game": "Cash Five",
@@ -956,7 +1042,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "1,4,6,9,10"
   },
   {
    "game": "Cash Five",
@@ -967,7 +1054,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "1,7,10,11,12"
   },
   {
    "game": "Cash Five",
@@ -978,7 +1066,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,7,8,10"
   },
   {
    "game": "Cash Five",
@@ -989,7 +1078,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "1,3,4,7,10"
   },
   {
    "game": "Cash Five",
@@ -1000,7 +1090,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "1,3,7,8,10"
   },
   {
    "game": "Cash Five",
@@ -1011,7 +1102,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "2,6,7,8,10"
   },
   {
    "game": "Cash Five",
@@ -1022,7 +1114,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,7,8"
   },
   {
    "game": "Cash Five",
@@ -1033,7 +1126,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "1,7,8,9,11"
   },
   {
    "game": "Cash Five",
@@ -1044,7 +1138,8 @@
    "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "13,19,17,33,18",
-   "sess": ""
+   "sess": "",
+   "remake": "1,7,9,10,11"
   },
   {
    "game": "Texas Two Step",
@@ -1055,7 +1150,8 @@
    "asof": "11/16/2026",
    "last": "0/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,5,6,12 + 3"
   },
   {
    "game": "Texas Two Step",
@@ -1066,7 +1162,8 @@
    "asof": "11/16/2026",
    "last": "0/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,5,6,12 + 7"
   },
   {
    "game": "Texas Two Step",
@@ -1077,7 +1174,8 @@
    "asof": "11/16/2026",
    "last": "1/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,4,7,10 + 24"
   },
   {
    "game": "Texas Two Step",
@@ -1088,7 +1186,8 @@
    "asof": "11/16/2026",
    "last": "1/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,7,9,10 + 4"
   },
   {
    "game": "Texas Two Step",
@@ -1099,7 +1198,8 @@
    "asof": "11/16/2026",
    "last": "1/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,4,10 + 24"
   },
   {
    "game": "Texas Two Step",
@@ -1110,7 +1210,8 @@
    "asof": "11/16/2026",
    "last": "1/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,4,10 + 33"
   },
   {
    "game": "Texas Two Step",
@@ -1121,7 +1222,8 @@
    "asof": "11/16/2026",
    "last": "1/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,5,7,10 + 20"
   },
   {
    "game": "Texas Two Step",
@@ -1132,7 +1234,8 @@
    "asof": "11/16/2026",
    "last": "1/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,4,5,10 + 24"
   },
   {
    "game": "Texas Two Step",
@@ -1143,7 +1246,8 @@
    "asof": "11/16/2026",
    "last": "0/4",
    "last_draw": "8,15,20,25 + 26",
-   "sess": ""
+   "sess": "",
+   "remake": "1,5,6,12 + 10"
   },
   {
    "game": "Lotto Texas",
@@ -1154,7 +1258,8 @@
    "asof": "11/16/2026",
    "last": "3/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,3,6,8,11"
   },
   {
    "game": "Lotto Texas",
@@ -1165,7 +1270,8 @@
    "asof": "11/16/2026",
    "last": "2/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,6,10,11"
   },
   {
    "game": "Lotto Texas",
@@ -1176,7 +1282,8 @@
    "asof": "11/16/2026",
    "last": "2/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,6,8,10,11"
   },
   {
    "game": "Lotto Texas",
@@ -1187,7 +1294,8 @@
    "asof": "11/16/2026",
    "last": "1/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "2,4,6,7,8,11"
   },
   {
    "game": "Lotto Texas",
@@ -1198,7 +1306,8 @@
    "asof": "11/16/2026",
    "last": "2/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,4,6,8,11"
   },
   {
    "game": "Lotto Texas",
@@ -1209,7 +1318,8 @@
    "asof": "11/16/2026",
    "last": "2/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,5,6,8,11"
   },
   {
    "game": "Lotto Texas",
@@ -1220,7 +1330,8 @@
    "asof": "11/16/2026",
    "last": "1/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,6,8,10,11"
   },
   {
    "game": "Lotto Texas",
@@ -1231,7 +1342,8 @@
    "asof": "11/16/2026",
    "last": "2/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,6,7,10"
   },
   {
    "game": "Lotto Texas",
@@ -1242,205 +1354,224 @@
    "asof": "11/16/2026",
    "last": "1/6",
    "last_draw": "1,33,35,2,14,12",
-   "sess": ""
+   "sess": "",
+   "remake": "1,4,5,7,8,9"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,6,7 + 5",
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
-   "best_date": "2019-02-09",
-   "asof": "2026-11-16",
+   "best_date": "2/9/2019",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,6,7 + 5"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,7,9 + 20",
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
-   "best_date": "2019-02-09",
-   "asof": "2026-11-16",
+   "best_date": "2/9/2019",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,7,9 + 20"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,7,13 + 5",
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
-   "best_date": "2019-02-09",
-   "asof": "2026-11-16",
+   "best_date": "2/9/2019",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,7,13 + 5"
   },
   {
    "game": "Powerball",
    "ticket": "1,3,6,7,13 + 25",
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
-   "best_date": "2024-11-27",
-   "asof": "2026-11-16",
+   "best_date": "11/27/2024",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,6,7,13 + 25"
   },
   {
    "game": "Powerball",
    "ticket": "1,4,6,7,13 + 24",
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=1 W3B=2",
    "best": "4/5",
-   "best_date": "2024-11-27",
-   "asof": "2026-11-16",
+   "best_date": "11/27/2024",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,4,6,7,13 + 24"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,4,13 + 24",
    "detail": "prize=3 J=0 W5=0 W4B=0 W4=0 W3B=3",
    "best": "3/5+B",
-   "best_date": "2023-10-18",
-   "asof": "2026-11-16",
+   "best_date": "10/18/2023",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,5,13 + 24"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,4,7 + 4",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2019-02-09",
-   "asof": "2026-11-16",
+   "best_date": "2/9/2019",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,5,7 + 4"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,4,7 + 5",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2019-02-09",
-   "asof": "2026-11-16",
+   "best_date": "2/9/2019",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,5,7 + 5"
   },
   {
    "game": "Powerball",
    "ticket": "1,2,3,4,7 + 8",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2019-02-09",
-   "asof": "2026-11-16",
+   "best_date": "2/9/2019",
+   "asof": "11/16/2026",
    "last": "0/5",
    "last_draw": "17,35,48,60,69 + 17",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,4,5,7 + 8"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,2,6,8,14 + 17",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2025-08-08",
-   "asof": "2026-11-17",
+   "best_date": "8/8/2025",
+   "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "2,3,6,8,14 + 17"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,3,7,11,13 + 14",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2022-10-11",
-   "asof": "2026-11-17",
+   "best_date": "10/11/2022",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,7,11,13 + 14"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,3,8,11,12 + 15",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2025-11-14",
-   "asof": "2026-11-17",
+   "best_date": "11/14/2025",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,8,11,12 + 15"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,4,8,11,12 + 13",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2025-11-14",
-   "asof": "2026-11-17",
+   "best_date": "11/14/2025",
+   "asof": "11/17/2026",
    "last": "0/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "2,4,8,11,12 + 13"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,5,6,9,10 + 18",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2020-06-09",
-   "asof": "2026-11-17",
+   "best_date": "6/9/2020",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,5,6,9 + 18"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,5,7,9,10 + 8",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2020-06-09",
-   "asof": "2026-11-17",
+   "best_date": "6/9/2020",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,5,7,9 + 8"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,5,7,9,10 + 15",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2020-06-09",
-   "asof": "2026-11-17",
+   "best_date": "6/9/2020",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,5,7,9 + 15"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,5,8,9,10 + 13",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2020-06-09",
-   "asof": "2026-11-17",
+   "best_date": "6/9/2020",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,5,8,9 + 13"
   },
   {
    "game": "Mega Millions",
    "ticket": "1,5,9,10,12 + 16",
    "detail": "prize=2 J=0 W5=0 W4B=0 W4=1 W3B=1",
    "best": "4/5",
-   "best_date": "2020-06-09",
-   "asof": "2026-11-17",
+   "best_date": "6/9/2020",
+   "asof": "11/17/2026",
    "last": "1/5",
    "last_draw": "3,10,19,28,33 + 21",
-   "sess": ""
+   "sess": "",
+   "remake": "1,2,5,9,12 + 16"
   }
  ]
 }
