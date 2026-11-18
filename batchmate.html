@@ -58,7 +58,7 @@
     <tbody id="hotbody"></tbody>
   </table>
   </div>
-  <h2>Readjust — combos that missed the latest draw</h2>
+  <h2>Readjust — combos that missed the lowest prize on the latest draw</h2>
   <div class="tightwrap">
   <table>
     <thead><tr>
@@ -275,10 +275,9 @@ function renderHot() {
 function renderReadj() {
   const byGame = {};
   TIGHT.tickets.forEach(t=>{
-    if(!t.remake) return;
+    if(!t.remake || t.last_win !== false) return;
     const m = (t.last||'').match(/(\d+)\/(\d+)/);
     const score = m ? (+m[1])/(+m[2]) : 0;
-    if (score >= 0.99) return;  // skip max matches
     (byGame[t.game] = byGame[t.game] || []).push({t, score});
   });
   const rows = [];
