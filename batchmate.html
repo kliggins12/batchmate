@@ -65,7 +65,7 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th>Ticket</th><th>Best match</th><th>Best on</th><th>Data thru</th><th>Game</th><th>Source / stats</th>
+      <th data-tk="ticket">Ticket</th><th data-tk="best">Best match</th><th data-tk="best_date">Best on</th><th data-tk="asof">Data thru</th><th data-tk="game">Game</th><th data-tk="detail">Source / stats</th>
     </tr></thead>
     <tbody id="tightbody"></tbody>
   </table>
@@ -122,6 +122,7 @@
 </main>
 <script>
 let DATA = null, TIGHT = null, sortKey = 'best_streak', sortDir = -1;
+let tightKey = 'best', tightDir = -1;
 
 async function load() {
   document.getElementById('status').textContent = 'loading data…';
@@ -147,9 +148,26 @@ async function load() {
   renderTight();
 }
 
+function tightVal(t, k) {
+  if (k === 'best') {
+    const m = (t.best||'').match(/(\d+)\/(\d+)/);
+    return m ? (+m[1])/(+m[2]) : -1;
+  }
+  if (k === 'best_date' || k === 'asof') {
+    const m = (t[k]||'').match(/(\d+)\/(\d+)\/(\d+)/);
+    return m ? (+m[3])*10000 + (+m[1])*100 + (+m[2]) : 0;
+  }
+  return t[k] || '';
+}
+
 function renderTight() {
   const f = document.getElementById('tightSel').value;
   const rows = TIGHT.tickets.filter(t=>!f || t.game===f);
+  rows.sort((a,b)=>{
+    const va = tightVal(a,tightKey), vb = tightVal(b,tightKey);
+    if (typeof va === 'number') return tightDir*(va-vb);
+    return tightDir*((va+'')<(vb+'')?-1:(va+'')>(vb+'')?1:0);
+  });
   document.getElementById('tightbody').innerHTML = rows.map(t=>`
     <tr>
       <td class="ticket">${t.ticket}</td>
@@ -199,6 +217,9 @@ function render() {
 
 document.querySelectorAll('th[data-k]').forEach(th=>{
   th.onclick = ()=>{ const k=th.dataset.k; sortDir = (sortKey===k)? -sortDir : -1; sortKey=k; render(); };
+});
+document.querySelectorAll('th[data-tk]').forEach(th=>{
+  th.onclick = ()=>{ const k=th.dataset.tk; tightDir = (tightKey===k)? -tightDir : -1; tightKey=k; renderTight(); };
 });
 document.getElementById('gameSel').onchange = render;
 document.getElementById('topN').onchange = render;
