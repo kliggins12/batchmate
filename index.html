@@ -34,6 +34,8 @@
   .badge { background:#7a2d0d; color:#ffd9b3; border:1px solid #a34a1f; border-radius:20px; padding:3px 12px; font-size:12px; font-weight:700; letter-spacing:.5px; text-transform:uppercase; }
   h2 { font-size:16px; margin:22px 0 10px; color:var(--gold); }
   .tightwrap { overflow-x:auto; }
+  .adslot { margin:14px 0; padding:10px; background:#141b2b; border:1px dashed #34405e; border-radius:10px; text-align:center; color:var(--dim); font-size:12px; min-height:90px; display:flex; align-items:center; justify-content:center; }
+  .adslot ins, .adslot iframe { display:block; margin:0 auto; }
 </style>
 </head>
 <body>
@@ -43,6 +45,7 @@
   <div class="meta" id="genmeta"></div>
 </header>
 <main>
+  <div class="adslot" id="ad-top">ADVERTISEMENT</div>
   <h2>Tightest tickets — current generated batches</h2>
   <div class="controls">
     <select id="tightSel"></select>
@@ -56,6 +59,7 @@
     <tbody id="tightbody"></tbody>
   </table>
   </div>
+  <div class="adslot" id="ad-mid">ADVERTISEMENT</div>
   <details style="margin-top:20px">
     <summary style="cursor:pointer;color:var(--dim);font-size:14px">Streak analysis — all combos by historical streaks (click to expand)</summary>
     <div class="controls" style="margin-top:12px">
@@ -77,6 +81,7 @@
       <tbody id="tbody"></tbody>
     </table>
   </details>
+  <div class="adslot" id="ad-bottom">ADVERTISEMENT</div>
   <div class="disclaimer">
     Batchmate ranks tickets by historical win streaks and droughts across official Texas Lottery draw data.
     The "Tightest tickets" section shows the latest generated batches (auto-window align picks, rolling rare-piece sets,
