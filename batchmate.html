@@ -203,19 +203,20 @@ async function load() {
     '<option value="">all games ('+TIGHT.tickets.length+')</option>' +
     games.map(g=>`<option value="${g}">${g} (${TIGHT.tickets.filter(t=>t.game===g).length})</option>`).join('');
   document.getElementById('tightSel').onchange = renderTight;
+  const latestDraws = TIGHT.latest_draws || [];
   const byGame = {};
-  TIGHT.tickets.forEach(t=>{
-    if(!t.last_draw) return;
-    const g = byGame[t.game] = byGame[t.game] || {};
-    g[t.sess || ''] = t.last_draw;
+  latestDraws.forEach(d=>{
+    (byGame[d.game] = byGame[d.game] || []).push(d);
   });
   document.getElementById('latestDraws').innerHTML =
-    '<b style="color:var(--gold)">Latest draws:</b> ' +
-    Object.entries(byGame).map(([g,m])=>{
-      const parts = Object.values(m).map(d=>
-        `<span class="ticket" style="font-size:13px">${d}</span>`);
-      return `${g}: ${parts.join(' · ')}`;
-    }).join(' &nbsp;|&nbsp; ');
+    '<b style="color:var(--gold)">Latest drawings today:</b> ' +
+    Object.entries(byGame).map(([g, draws])=>{
+      const parts = draws.map(d=>{
+        const session = d.session ? ' · ' + d.session : '';
+        return `<span class="ticket" style="font-size:13px">${session}: ${d.numbers}</span>`;
+      });
+      return `<span style="white-space:normal">${g}: ${parts.join(' &nbsp;|&nbsp; ')}</span>`;
+    }).join(' &nbsp;|&nbsp; ') || 'No latest draw data available';
   render();
   renderTight();
   renderHot();
@@ -223,10 +224,9 @@ async function load() {
 }
 
 function hitGameSession(t) {
-   const m = (t.last || '').match(/(\d+)\/(\d+)/);
-   if (!m || +m[1] === 0) return 'No hit';
-   const session = (t.sess || '').trim();
-   return session ? `${t.game} · ${session.charAt(0).toUpperCase() + session.slice(1)}` : t.game;
+   const hits = t.hit_sessions || [];
+   if (!hits.length) return 'No hit on latest drawings';
+   return hits.map(h => `${h.label} (${h.match})`).join(' · ');
  }
 
 function tightVal(t, k) {
