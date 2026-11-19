@@ -64,10 +64,13 @@ def run_streaks(n_tickets, draw_winners, dates):
     total = np.zeros(n_tickets, np.int32)
     best_end = np.full(n_tickets, -1, np.int32)
     for di, W in enumerate(draw_winners):
+        # A current streak must be zero for every ticket that misses this draw.
+        # Preserve the previous values for winners before clearing the array.
+        previous = streak[W].copy()
+        streak.fill(0)
         if len(W) == 0:
             continue
-        s = streak[W]
-        ns = np.where(last[W] == di - 1, s + 1, 1).astype(np.int32)
+        ns = np.where(last[W] == di - 1, previous + 1, 1).astype(np.int32)
         streak[W] = ns
         last[W] = di
         total[W] += 1
@@ -289,11 +292,14 @@ def lotto():
     best_end = np.full(N, -1, np.int32)
     last_win = np.full(N, -1, np.int32)
     for di, W in enumerate(winners):
+        # Reset tickets that miss this draw so current_streak reflects the
+        # actual run ending at the latest draw, not an older winning run.
+        previous = streak[W].astype(np.int32).copy()
+        streak.fill(0)
         if len(W) == 0:
             continue
         last_win[W] = di
-        sv = streak[W].astype(np.int32)
-        ns = np.where(last[W] == di - 1, sv + 1, 1)
+        ns = np.where(last[W] == di - 1, previous + 1, 1)
         streak[W] = ns.astype(np.int16)
         last[W] = di
         total[W] += 1
