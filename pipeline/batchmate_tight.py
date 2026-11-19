@@ -17,11 +17,11 @@ DATA = os.path.join(HERE, 'data')
 OUT = []
 
 
-def add(game, ticket, detail, best='', best_date='', asof='', last='', last_draw='', sess='', remake='', last_win=True):
+def add(game, ticket, detail, best='', best_date='', asof='', last='', last_draw='', sess='', remake='', remake_match='', last_win=True):
     OUT.append({'game': game, 'ticket': ticket, 'detail': detail,
                 'best': best, 'best_date': best_date, 'asof': asof,
                 'last': last, 'last_draw': last_draw, 'sess': sess,
-                'remake': remake, 'last_win': last_win})
+                'remake': remake, 'remake_match': remake_match, 'last_win': last_win})
 
 
 def fmt_draw(d, k, bonus=False):
@@ -266,7 +266,7 @@ def parse_align_auto():
             rm, lw = adjust_aon(m.group(1), AON_DRAWS)
             add('All or Nothing', m.group(1), f'{stream} W={W} {stats}',
                 b, bd, asof, last_aon(m.group(1), last_draw), last_str,
-                remake=rm, last_win=lw)
+                remake=rm, remake_match=last_aon(rm, last_draw) if rm and last_draw else '', last_win=lw)
             stream = None
 
 
@@ -310,7 +310,7 @@ def parse_rolling(fname, game, draws, k, bonus=False, sess='', need_mains=0, bon
             rm, lw = adjust_combo(m.group(1), draws, k, need_mains, bonus, bonus_mains) if need_mains else ('', True)
             add(game, m.group(1), m.group(2).strip(),
                 b, bd, asof, last_combo(m.group(1), last_draw, k, bonus), last_str, sess,
-                remake=rm, last_win=lw)
+                remake=rm, remake_match=last_combo(rm, last_draw, k, bonus) if rm and last_draw else '', last_win=lw)
             continue
         m = re.match(r'(\d{3,4})\s+#\s*(.*)', line)
         if m:
@@ -318,7 +318,7 @@ def parse_rolling(fname, game, draws, k, bonus=False, sess='', need_mains=0, bon
             rm, lw = adjust_digits(m.group(1), draws) if digits else ('', True)
             add(game, m.group(1), m.group(2).strip(),
                 b, bd, asof, last_digits(m.group(1), last_draw), last_str, sess,
-                remake=rm, last_win=lw)
+                remake=rm, remake_match=last_digits(rm, last_draw) if rm and last_draw else '', last_win=lw)
 
 
 def main():
