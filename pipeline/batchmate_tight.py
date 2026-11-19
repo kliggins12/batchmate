@@ -414,7 +414,7 @@ def main():
             uniq.append(t)
     with open(os.path.join(HERE, 'tight_tickets.json'), 'w') as f:
         json.dump({'generated': datetime.now().isoformat(timespec='seconds'),
-                   'tickets': uniq}, f, indent=1)
+                   'latest_draws': LATEST_DRAWS, 'tickets': uniq}, f, indent=1)
     print(f'{len(uniq)} tight tickets -> tight_tickets.json')
 
 
