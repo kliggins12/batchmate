@@ -15,6 +15,7 @@ from datetime import datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, 'data')
 OUT = []
+LATEST_DRAWS = []
 
 
 def add(game, ticket, detail, best='', best_date='', asof='', last='', last_draw='', sess='', remake='', remake_match='', last_win=True):
@@ -243,6 +244,44 @@ def best_combo(ticket, draws, k, has_bonus=False):
 
 # ---------- file parsers ----------
 
+def record_latest_draw(game, session, draws, k=None, bonus=False):
+    if not draws:
+        return
+    dk, ds, nums = draws[-1]
+    shown = fmt_draw(nums, k, bonus) if k is not None else ','.join(map(str, nums))
+    LATEST_DRAWS.append({'game': game, 'session': session.title() if session else '',
+                         'date': ds, 'numbers': shown, 'raw': list(nums)})
+
+
+def latest_aon_sessions():
+    for sess in ['morning', 'day', 'evening', 'night']:
+        rows = []
+        path = os.path.join(DATA, f'aon_{sess}.csv')
+        for r in csv.reader(open(path)):
+            if len(r) < 16:
+                continue
+            dk, ds = _mdy(r)
+            rows.append((dk, ds, tuple(sorted(int(x) for x in r[4:16]))))
+        rows.sort(key=lambda x: x[0])
+        record_latest_draw('All or Nothing', sess, rows)
+
+
+def match_on_latest_draw(ticket, draw):
+    game = ticket['game']
+    if game == 'All or Nothing':
+        return last_aon(ticket['ticket'], draw)
+    if game.startswith('Pick 3') or game.startswith('Daily 4'):
+        return last_digits(ticket['ticket'], draw)
+    if game == 'Cash Five':
+        return last_combo(ticket['ticket'], draw, 5)
+    if game == 'Texas Two Step':
+        return last_combo(ticket['ticket'], draw, 4, True)
+    if game == 'Lotto Texas':
+        return last_combo(ticket['ticket'], draw, 6)
+    if game in ('Powerball', 'Mega Millions'):
+        return last_combo(ticket['ticket'], draw, 5, True)
+    return ''
+
 def parse_align_auto():
     path = os.path.join(HERE, 'aon_align_auto.txt')
     if not os.path.exists(path):
@@ -291,6 +330,7 @@ def parse_aon_rolling():
 
 
 def parse_rolling(fname, game, draws, k, bonus=False, sess='', need_mains=0, bonus_mains=None, digits=False):
+    record_latest_draw(game, sess, draws, k, bonus)
     path = os.path.join(HERE, fname)
     if not os.path.exists(path):
         return
@@ -324,6 +364,7 @@ def parse_rolling(fname, game, draws, k, bonus=False, sess='', need_mains=0, bon
 def main():
     global AON_DRAWS
     AON_DRAWS = load_aon()
+    latest_aon_sessions()
 
     parse_align_auto()
     parse_aon_rolling()
@@ -349,6 +390,21 @@ def main():
     mm = load_pbmm('megamillions.csv', '2020-03-24')
     parse_rolling('rolling_mega_millions.txt', 'Mega Millions', mm, 5, bonus=True, need_mains=4, bonus_mains=3)
 
+    # Compare every ticket with every latest same-game draw/session.
+    for ticket in OUT:
+        hits = []
+        for latest in LATEST_DRAWS:
+            if latest['game'] != ticket['game']:
+                continue
+            value = match_on_latest_draw(ticket, latest['raw'])
+            m = re.match(r'(\d+)/(\d+)', value or '')
+            if m and int(m.group(1)) > 0:
+                label = latest['game'] + (' · ' + latest['session'] if latest['session'] else '')
+                hits.append({'label': label, 'match': value, 'date': latest['date']})
+        ticket['hit_sessions'] = hits
+
+    session_order = {'Morning': 0, 'Day': 1, 'Evening': 2, 'Night': 3}
+    LATEST_DRAWS.sort(key=lambda d: (d['game'], session_order.get(d['session'], 4)))
     seen = set()
     uniq = []
     for t in OUT:
