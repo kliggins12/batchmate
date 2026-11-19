@@ -280,7 +280,7 @@ function renderHot() {
       <td class="ticket">${t.ticket}</td>
       <td class="${(()=>{const m=(t.last||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.last||'—'}</td>
       <td class="meta">${t.last_draw||'—'}</td>
-      <td class="meta">${t.detail}</td>
+      <td class="meta">${hitGameSession(t)}</td>
     </tr>`).join('');
 }
 
@@ -305,7 +305,7 @@ function renderReadj() {
       <td>${t.last||'—'}</td>
       <td class="ticket" style="color:var(--accent)">${t.remake}</td>
       <td class="meta">${t.last_draw||'—'}</td>
-      <td class="meta">${t.detail}</td>
+      <td class="meta">${hitGameSession(t)}</td>
     </tr>`).join('') || '<tr><td colspan="6" class="meta">no failing combos</td></tr>';
 }
 
