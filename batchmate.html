@@ -65,7 +65,7 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Remake</th><th>Latest draw</th><th>Hit game / session</th>
+      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Remake</th><th>Remake match</th><th>Latest draw</th><th>Hit game / session</th>
     </tr></thead>
     <tbody id="readjbody"></tbody>
   </table>
@@ -304,9 +304,10 @@ function renderReadj() {
       <td class="ticket">${t.ticket}</td>
       <td>${t.last||'—'}</td>
       <td class="ticket" style="color:var(--accent)">${t.remake}</td>
+      <td class="meta">${t.remake_match||'—'}</td>
       <td class="meta">${t.last_draw||'—'}</td>
       <td class="meta">${hitGameSession(t)}</td>
-    </tr>`).join('') || '<tr><td colspan="6" class="meta">no failing combos</td></tr>';
+    </tr>`).join('') || '<tr><td colspan="7" class="meta">no failing combos</td></tr>';
 }
 
 function game() { return DATA.games[+document.getElementById('gameSel').value]; }
