@@ -186,11 +186,11 @@ async function load() {
   if (window.BATCHMATE_DATA) {
     DATA = window.BATCHMATE_DATA;
   } else {
-    const r = await fetch('batchmate_data.json');
+    const r = await fetch('batchmate_data.json?ts=' + Date.now(), {cache:'no-store'});
     DATA = await r.json();
   }
   try {
-    const tr = await fetch('tight_tickets.json');
+    const tr = await fetch('tight_tickets.json?ts=' + Date.now(), {cache:'no-store'});
     TIGHT = await tr.json();
   } catch (e) { TIGHT = { tickets: [] }; }
   document.getElementById('genmeta').textContent = 'generated ' + DATA.generated;
@@ -203,10 +203,12 @@ async function load() {
     '<option value="">all games ('+TIGHT.tickets.length+')</option>' +
     games.map(g=>`<option value="${g}">${g} (${TIGHT.tickets.filter(t=>t.game===g).length})</option>`).join('');
   document.getElementById('tightSel').onchange = renderTight;
-  const latestDraws = (TIGHT.latest_draws && TIGHT.latest_draws.length) ? TIGHT.latest_draws :
-    [...new Map(TIGHT.tickets.filter(t=>t.last_draw).map(t=>[
-      (t.game||'')+'|'+(t.sess||''), {game:t.game, session:(t.sess||'').replace(/^./,x=>x.toUpperCase()), date:t.asof||'', numbers:t.last_draw}
-    ])).values()];
+  const latestDraws = TIGHT.latest_draws || [];
+  const expectedAonSessions = ['Morning','Day','Evening','Night'];
+  const hasAonSessions = latestDraws.some(d=>d.game==='All or Nothing' && d.session);
+  if (!hasAonSessions) {
+    expectedAonSessions.forEach(session=>latestDraws.push({game:'All or Nothing',session,date:'',numbers:'Awaiting session-specific refresh'}));
+  }
   const byGame = {};
   latestDraws.forEach(d=>{
     (byGame[d.game] = byGame[d.game] || []).push(d);
