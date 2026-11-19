@@ -203,7 +203,10 @@ async function load() {
     '<option value="">all games ('+TIGHT.tickets.length+')</option>' +
     games.map(g=>`<option value="${g}">${g} (${TIGHT.tickets.filter(t=>t.game===g).length})</option>`).join('');
   document.getElementById('tightSel').onchange = renderTight;
-  const latestDraws = TIGHT.latest_draws || [];
+  const latestDraws = (TIGHT.latest_draws && TIGHT.latest_draws.length) ? TIGHT.latest_draws :
+    [...new Map(TIGHT.tickets.filter(t=>t.last_draw && t.game!=='All or Nothing').map(t=>[
+      (t.game||'')+'|'+(t.sess||''), {game:t.game, session:(t.sess||'').replace(/^./,x=>x.toUpperCase()), date:t.asof||'', numbers:t.last_draw}
+    ])).values()];
   const expectedAonSessions = ['Morning','Day','Evening','Night'];
   const hasAonSessions = latestDraws.some(d=>d.game==='All or Nothing' && d.session);
   if (!hasAonSessions) {
