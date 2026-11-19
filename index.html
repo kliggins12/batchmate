@@ -222,7 +222,7 @@ async function load() {
 
 function tightVal(t, k) {
   if (k === 'best' || k === 'last') {
-    const m = (t.best||'').match(/(\d+)\/(\d+)/);
+    const m = (t[k]||'').match(/(\d+)\/(\d+)/);
     return m ? (+m[1])/(+m[2]) : -1;
   }
   if (k === 'best_date' || k === 'asof') {
