@@ -1,5 +1,247 @@
 {
- "generated": "2026-11-19T07:22:45",
+ "generated": "2026-11-19T08:03:52",
+ "latest_draws": [
+  {
+   "game": "All or Nothing",
+   "session": "Morning",
+   "date": "11/18/2026",
+   "numbers": "1,5,6,7,8,9,12,13,14,15,21,22",
+   "raw": [
+    1,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13,
+    14,
+    15,
+    21,
+    22
+   ]
+  },
+  {
+   "game": "All or Nothing",
+   "session": "Day",
+   "date": "11/18/2026",
+   "numbers": "2,3,4,6,8,11,12,14,16,17,22,23",
+   "raw": [
+    2,
+    3,
+    4,
+    6,
+    8,
+    11,
+    12,
+    14,
+    16,
+    17,
+    22,
+    23
+   ]
+  },
+  {
+   "game": "All or Nothing",
+   "session": "Evening",
+   "date": "11/18/2026",
+   "numbers": "1,3,4,5,6,10,11,13,14,15,18,20",
+   "raw": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    10,
+    11,
+    13,
+    14,
+    15,
+    18,
+    20
+   ]
+  },
+  {
+   "game": "All or Nothing",
+   "session": "Night",
+   "date": "11/18/2026",
+   "numbers": "2,3,5,10,13,14,16,17,18,22,23,24",
+   "raw": [
+    2,
+    3,
+    5,
+    10,
+    13,
+    14,
+    16,
+    17,
+    18,
+    22,
+    23,
+    24
+   ]
+  },
+  {
+   "game": "Cash Five",
+   "session": "",
+   "date": "11/18/2026",
+   "numbers": "10,2,4,23,12",
+   "raw": [
+    10,
+    2,
+    4,
+    23,
+    12
+   ]
+  },
+  {
+   "game": "Daily 4",
+   "session": "Morning",
+   "date": "11/18/2026",
+   "numbers": "1,1,2,3",
+   "raw": [
+    1,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "game": "Daily 4",
+   "session": "Day",
+   "date": "11/18/2026",
+   "numbers": "4,6,3,5",
+   "raw": [
+    4,
+    6,
+    3,
+    5
+   ]
+  },
+  {
+   "game": "Daily 4",
+   "session": "Evening",
+   "date": "11/18/2026",
+   "numbers": "1,7,5,4",
+   "raw": [
+    1,
+    7,
+    5,
+    4
+   ]
+  },
+  {
+   "game": "Daily 4",
+   "session": "Night",
+   "date": "11/18/2026",
+   "numbers": "9,5,0,0",
+   "raw": [
+    9,
+    5,
+    0,
+    0
+   ]
+  },
+  {
+   "game": "Lotto Texas",
+   "session": "",
+   "date": "11/18/2026",
+   "numbers": "32,48,24,8,27,14",
+   "raw": [
+    32,
+    48,
+    24,
+    8,
+    27,
+    14
+   ]
+  },
+  {
+   "game": "Mega Millions",
+   "session": "",
+   "date": "11/17/2026",
+   "numbers": "3,10,19,28,33 + 21",
+   "raw": [
+    3,
+    10,
+    19,
+    28,
+    33,
+    21
+   ]
+  },
+  {
+   "game": "Pick 3",
+   "session": "Morning",
+   "date": "11/18/2026",
+   "numbers": "3,3,1",
+   "raw": [
+    3,
+    3,
+    1
+   ]
+  },
+  {
+   "game": "Pick 3",
+   "session": "Day",
+   "date": "11/18/2026",
+   "numbers": "5,7,5",
+   "raw": [
+    5,
+    7,
+    5
+   ]
+  },
+  {
+   "game": "Pick 3",
+   "session": "Evening",
+   "date": "11/18/2026",
+   "numbers": "6,3,6",
+   "raw": [
+    6,
+    3,
+    6
+   ]
+  },
+  {
+   "game": "Pick 3",
+   "session": "Night",
+   "date": "11/18/2026",
+   "numbers": "1,4,4",
+   "raw": [
+    1,
+    4,
+    4
+   ]
+  },
+  {
+   "game": "Powerball",
+   "session": "",
+   "date": "11/18/2026",
+   "numbers": "18,31,43,51,62 + 12",
+   "raw": [
+    18,
+    31,
+    43,
+    51,
+    62,
+    12
+   ]
+  },
+  {
+   "game": "Texas Two Step",
+   "session": "",
+   "date": "11/16/2026",
+   "numbers": "8,15,20,25 + 26",
+   "raw": [
+    8,
+    15,
+    20,
+    25,
+    26
+   ]
+  }
+ ],
  "tickets": [
   {
    "game": "All or Nothing",
@@ -12,7 +254,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,2,3,5,10,13,14,16,17,18,20,22",
-   "last_win": false
+   "remake_match": "10/12",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "8/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -25,7 +290,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,2,3,5,10,11,13,14,16,17,18,24",
-   "last_win": false
+   "remake_match": "10/12",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "9/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -38,7 +326,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,12,19,20,21,23,24",
-   "last_win": false
+   "remake_match": "10/12",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "9/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -51,7 +362,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,2,3,5,9,10,13,14,16,17,18,22",
-   "last_win": false
+   "remake_match": "10/12",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "10/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -64,7 +398,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,2,3,5,10,11,13,14,16,18,22,24",
-   "last_win": false
+   "remake_match": "10/12",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "8/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -77,7 +434,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,2,3,5,10,13,14,16,17,18,20,22",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "6/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -90,7 +470,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,10,11,15,18,19,21",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "8/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "8/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -103,7 +506,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,8,11,12,14,15,16,19,20,21",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "8/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -116,7 +542,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,12,15,17,18,19,20",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "8/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -129,7 +578,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,12,15,17,18,20,21",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "8/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -142,7 +614,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,12,15,17,18,20,21",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "8/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -155,7 +650,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,11,12,18,19,21,22",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "8/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "8/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -168,7 +686,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,2,3,5,10,13,14,15,16,17,18,22",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "7/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "6/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "All or Nothing",
@@ -181,7 +722,30 @@
    "last_draw": "2,3,5,10,13,14,16,17,18,22,23,24",
    "sess": "",
    "remake": "1,4,6,7,8,9,11,12,15,18,20,22",
-   "last_win": false
+   "remake_match": "",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "All or Nothing \u00b7 Morning",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Day",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Evening",
+     "match": "6/12",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "All or Nothing \u00b7 Night",
+     "match": "7/12",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -194,7 +758,20 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -207,7 +784,15 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "2/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -220,7 +805,9 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Pick 3",
@@ -233,7 +820,15 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -246,7 +841,15 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -259,7 +862,20 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -272,7 +888,20 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -285,7 +914,15 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -298,7 +935,25 @@
    "last_draw": "331",
    "sess": "morning",
    "remake": "133",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "2/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -311,7 +966,25 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -324,7 +997,20 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -337,7 +1023,25 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -350,7 +1054,25 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "3/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -363,7 +1085,30 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -376,7 +1121,30 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -389,7 +1157,30 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -402,7 +1193,30 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -415,7 +1229,25 @@
    "last_draw": "1123",
    "sess": "morning",
    "remake": "1123",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "3/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -428,7 +1260,15 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -441,7 +1281,25 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -454,7 +1312,25 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -467,7 +1343,15 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -480,7 +1364,20 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -493,7 +1390,25 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -506,7 +1421,25 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -519,7 +1452,20 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -532,7 +1478,15 @@
    "last_draw": "575",
    "sess": "day",
    "remake": "557",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -545,7 +1499,25 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -558,7 +1530,30 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -571,7 +1566,30 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -584,7 +1602,20 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -597,7 +1628,20 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -610,7 +1654,30 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -623,7 +1690,30 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -636,7 +1726,30 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -649,7 +1762,30 @@
    "last_draw": "4635",
    "sess": "day",
    "remake": "3456",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -662,7 +1798,25 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -675,7 +1829,20 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -688,7 +1855,20 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "2/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -701,7 +1881,20 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -714,7 +1907,15 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -727,7 +1928,15 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "2/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -740,7 +1949,20 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "2/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -753,7 +1975,20 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -766,7 +2001,25 @@
    "last_draw": "636",
    "sess": "evening",
    "remake": "366",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -779,7 +2032,30 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -792,7 +2068,25 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -805,7 +2099,30 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -818,7 +2135,30 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -831,7 +2171,25 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -844,7 +2202,25 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -857,7 +2233,25 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -870,7 +2264,25 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -883,7 +2295,30 @@
    "last_draw": "1754",
    "sess": "evening",
    "remake": "1457",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "3/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -896,7 +2331,25 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -909,7 +2362,15 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -922,7 +2383,20 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -935,7 +2409,30 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -948,7 +2445,25 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -961,7 +2476,25 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "2/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -974,7 +2507,20 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "2/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -987,7 +2533,20 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Evening",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Pick 3",
@@ -1000,7 +2559,25 @@
    "last_draw": "144",
    "sess": "night",
    "remake": "144",
-   "last_win": false
+   "remake_match": "3/3",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Pick 3 \u00b7 Morning",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Day",
+     "match": "1/3",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Pick 3 \u00b7 Night",
+     "match": "1/3",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1013,7 +2590,30 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1026,7 +2626,30 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1039,7 +2662,25 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1052,7 +2693,30 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1065,7 +2729,30 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1078,7 +2765,30 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "3/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1091,7 +2801,25 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1104,7 +2832,25 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Evening",
+     "match": "1/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Daily 4",
@@ -1117,7 +2863,25 @@
    "last_draw": "9500",
    "sess": "night",
    "remake": "0059",
-   "last_win": false
+   "remake_match": "4/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Daily 4 \u00b7 Morning",
+     "match": "1/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Day",
+     "match": "2/4",
+     "date": "11/18/2026"
+    },
+    {
+     "label": "Daily 4 \u00b7 Night",
+     "match": "2/4",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1130,7 +2894,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,6,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "2/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1143,7 +2915,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,3,4,10",
-   "last_win": true
+   "remake_match": "3/5",
+   "last_win": true,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "3/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1156,7 +2936,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,7,10,12",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "2/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1169,7 +2957,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,7,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "1/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1182,7 +2978,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,7,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "2/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1195,7 +2999,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,7,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "1/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1208,7 +3020,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,7,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "1/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Cash Five",
@@ -1221,7 +3041,9 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,9,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Cash Five",
@@ -1234,7 +3056,15 @@
    "last_draw": "10,2,4,23,12",
    "sess": "",
    "remake": "1,2,4,9,10",
-   "last_win": false
+   "remake_match": "3/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Cash Five",
+     "match": "1/5",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1247,7 +3077,9 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 3",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Texas Two Step",
@@ -1260,7 +3092,9 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 7",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Texas Two Step",
@@ -1273,7 +3107,15 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 24",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Texas Two Step",
+     "match": "1/4",
+     "date": "11/16/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1286,7 +3128,15 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 4",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Texas Two Step",
+     "match": "1/4",
+     "date": "11/16/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1299,7 +3149,15 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 24",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Texas Two Step",
+     "match": "1/4",
+     "date": "11/16/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1312,7 +3170,15 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 33",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Texas Two Step",
+     "match": "1/4",
+     "date": "11/16/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1325,7 +3191,15 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 20",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Texas Two Step",
+     "match": "1/4",
+     "date": "11/16/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1338,7 +3212,15 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 24",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Texas Two Step",
+     "match": "1/4",
+     "date": "11/16/2026"
+    }
+   ]
   },
   {
    "game": "Texas Two Step",
@@ -1351,7 +3233,9 @@
    "last_draw": "8,15,20,25 + 26",
    "sess": "",
    "remake": "1,8,15,20 + 10",
-   "last_win": false
+   "remake_match": "3/4",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Lotto Texas",
@@ -1364,7 +3248,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,8,11,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Lotto Texas",
@@ -1377,7 +3269,9 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,8,10,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Lotto Texas",
@@ -1390,7 +3284,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,8,10,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Lotto Texas",
@@ -1403,7 +3305,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,7,8,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Lotto Texas",
@@ -1416,7 +3326,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,8,11,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Lotto Texas",
@@ -1429,7 +3347,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,6,8,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Lotto Texas",
@@ -1442,7 +3368,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,8,10,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Lotto Texas",
@@ -1455,7 +3389,9 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,7,8,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Lotto Texas",
@@ -1468,7 +3404,15 @@
    "last_draw": "32,48,24,8,27,14",
    "sess": "",
    "remake": "1,8,9,14,24,27",
-   "last_win": false
+   "remake_match": "4/6",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Lotto Texas",
+     "match": "1/6",
+     "date": "11/18/2026"
+    }
+   ]
   },
   {
    "game": "Powerball",
@@ -1481,7 +3425,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 5",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1494,7 +3440,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 20",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1507,7 +3455,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 5",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1520,7 +3470,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 25",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1533,7 +3485,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 24",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1546,7 +3500,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 24",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1559,7 +3515,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 4",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1572,7 +3530,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 5",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Powerball",
@@ -1585,7 +3545,9 @@
    "last_draw": "18,31,43,51,62 + 12",
    "sess": "",
    "remake": "1,18,31,43,51 + 8",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Mega Millions",
@@ -1598,7 +3560,9 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 17",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Mega Millions",
@@ -1611,7 +3575,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 14",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   },
   {
    "game": "Mega Millions",
@@ -1624,7 +3596,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 15",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   },
   {
    "game": "Mega Millions",
@@ -1637,7 +3617,9 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 13",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": []
   },
   {
    "game": "Mega Millions",
@@ -1650,7 +3632,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 18",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   },
   {
    "game": "Mega Millions",
@@ -1663,7 +3653,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 8",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   },
   {
    "game": "Mega Millions",
@@ -1676,7 +3674,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 15",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   },
   {
    "game": "Mega Millions",
@@ -1689,7 +3695,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 13",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   },
   {
    "game": "Mega Millions",
@@ -1702,7 +3716,15 @@
    "last_draw": "3,10,19,28,33 + 21",
    "sess": "",
    "remake": "1,3,10,19,28 + 16",
-   "last_win": false
+   "remake_match": "4/5",
+   "last_win": false,
+   "hit_sessions": [
+    {
+     "label": "Mega Millions",
+     "match": "1/5",
+     "date": "11/17/2026"
+    }
+   ]
   }
  ]
 }

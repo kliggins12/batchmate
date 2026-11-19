@@ -1,0 +1,23 @@
+{
+  "generated_utc": "2026-11-19T08:03:52.930417+00:00",
+  "count": 17,
+  "files": [
+    "aon_day.csv",
+    "aon_evening.csv",
+    "aon_morning.csv",
+    "aon_night.csv",
+    "cashfive.csv",
+    "daily4day.csv",
+    "daily4evening.csv",
+    "daily4morning.csv",
+    "daily4night.csv",
+    "lottotexas.csv",
+    "megamillions.csv",
+    "pick3day.csv",
+    "pick3evening.csv",
+    "pick3morning.csv",
+    "pick3night.csv",
+    "powerball.csv",
+    "texastwostep.csv"
+  ]
+}
