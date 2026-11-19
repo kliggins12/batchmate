@@ -1,0 +1,12 @@
+Batchmate rolling Cash Five - last 4 draws
+9 tickets
+
+3,4,6,9,10   # wins=134
+2,3,4,7,10   # wins=133
+5,7,10,11,12   # wins=133
+1,3,7,8,10   # wins=133
+2,3,7,8,10   # wins=132
+1,6,7,8,10   # wins=132
+1,2,3,7,8   # wins=131
+3,7,8,9,11   # wins=131
+3,7,9,10,11   # wins=131

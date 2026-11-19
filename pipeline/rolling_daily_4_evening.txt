@@ -1,0 +1,12 @@
+Batchmate rolling Daily 4 Evening - last 4 draws
+9 tickets (box match; any digit order wins same)
+
+0126   # box wins=22 drought=340
+0469   # box wins=19 drought=80
+0146   # box wins=19 drought=44
+1359   # box wins=17 drought=297
+0567   # box wins=17 drought=110
+3689   # box wins=16 drought=422
+0489   # box wins=16 drought=321
+0458   # box wins=16 drought=36
+1479   # box wins=15 drought=984

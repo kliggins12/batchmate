@@ -1,0 +1,12 @@
+Batchmate rolling Pick 3 Night - last 4 draws
+9 tickets (box match; any digit order wins same)
+
+169   # box wins=85 drought=27
+279   # box wins=82 drought=203
+678   # box wins=82 drought=106
+345   # box wins=80 drought=297
+378   # box wins=79 drought=91
+157   # box wins=77 drought=75
+148   # box wins=77 drought=52
+389   # box wins=76 drought=45
+158   # box wins=76 drought=18

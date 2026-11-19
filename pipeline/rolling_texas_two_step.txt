@@ -1,0 +1,12 @@
+Batchmate rolling Texas Two Step - last 4 draws
+9 tickets
+
+3,5,6,12 + 3   # wins=24
+3,5,6,12 + 7   # wins=24
+4,7,8,10 + 24   # wins=24
+7,8,9,10 + 4   # wins=24
+1,4,8,10 + 24   # wins=24
+1,4,8,10 + 33   # wins=24
+5,7,8,10 + 20   # wins=24
+4,5,8,10 + 24   # wins=24
+3,5,6,12 + 10   # wins=23
