@@ -1,0 +1,4 @@
+pipeline/_archive/*.npy
+pipeline/_archive/*.txt
+pipeline/data/
+__pycache__/

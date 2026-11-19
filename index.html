@@ -20,6 +20,8 @@
   select, input, button { background:var(--panel); color:var(--text); border:1px solid #34405e; border-radius:8px; padding:8px 12px; font-size:14px; }
   button { cursor:pointer; background:#22304d; }
   button:hover { border-color:var(--accent); }
+  .refreshbtn { background:#22304d; border:1px solid #34405e; border-radius:8px; padding:8px 12px; font-size:13px; color:var(--text); text-decoration:none; white-space:nowrap; }
+  .refreshbtn:hover { border-color:var(--accent); color:var(--accent); }
   .statcards { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:14px; }
   .card { background:var(--panel); border:1px solid #2a3450; border-radius:10px; padding:10px 16px; min-width:130px; }
   .card b { display:block; font-size:18px; color:var(--accent); }
@@ -46,6 +48,7 @@
   <h1>Batch<span>mate</span></h1>
   <span class="badge">Texas players only</span>
   <div class="meta" id="genmeta"></div>
+  <a class="refreshbtn" href="https://github.com/kliggins12/batchmate/actions/workflows/refresh.yml" target="_blank" rel="noopener" title="Runs the data pipeline on GitHub — sign in to GitHub and click 'Run workflow'">↻ Refresh data</a>
 </header>
 <main>
   <div class="meta" id="latestDraws" style="margin-bottom:10px"></div>

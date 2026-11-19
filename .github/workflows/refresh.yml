@@ -1,0 +1,75 @@
+name: refresh-data
+
+on:
+  schedule:
+    # ~11:30pm and ~11:30am Central (after the last daily draws)
+    - cron: '30 4,16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install numpy
+
+      - name: Restore cached lotto combo arrays
+        id: lotto-cache
+        uses: actions/cache@v4
+        with:
+          path: pipeline/_archive
+          key: lotto-combos-v1
+
+      - name: Generate lotto combo arrays (first run only)
+        if: steps.lotto-cache.outputs.cache-hit != 'true'
+        working-directory: pipeline/_archive
+        run: |
+          python gen_lotto_combos.py
+          rm -f lotto_combos.txt
+
+      - name: Fetch latest draw CSVs
+        working-directory: pipeline
+        run: python fetch_all.py
+
+      - name: AoN align
+        working-directory: pipeline
+        run: python batchmate_align.py --auto
+
+      - name: AoN rolling tickets
+        working-directory: pipeline
+        run: python batchmate_rolling.py 4
+
+      - name: Rolling games
+        working-directory: pipeline
+        run: python batchmate_rolling_games.py 4
+
+      - name: Powerball / Mega Millions
+        working-directory: pipeline
+        run: python batchmate_powerball_mm.py 4
+
+      - name: Build app data
+        working-directory: pipeline
+        run: python batchmate_build.py
+
+      - name: Tight tickets
+        working-directory: pipeline
+        run: python batchmate_tight.py
+
+      - name: Publish updated data
+        run: |
+          cp pipeline/batchmate_data.json pipeline/tight_tickets.json .
+          git config user.name "kliggins12"
+          git config user.email "kliggins12@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "Refresh draw data $(date -u +%Y-%m-%d)"
+          git push
