@@ -64,6 +64,22 @@ jobs:
         working-directory: pipeline
         run: python batchmate_tight.py
 
+      - name: Publish source CSVs for Slotterhouse
+        run: |
+          mkdir -p slotterhouse-data
+          cp pipeline/data/*.csv slotterhouse-data/
+          python - <<'PY'
+          import json, glob, os
+          files = sorted(os.path.basename(p) for p in glob.glob('slotterhouse-data/*.csv'))
+          expected = 17
+          if len(files) != expected:
+              raise SystemExit(f'Expected {expected} CSV files for Slotterhouse, found {len(files)}')
+          with open('slotterhouse-data/manifest.json', 'w') as f:
+              json.dump({'generated_utc': __import__('datetime').datetime.now(__import__('datetime').timezone.utc).isoformat(),
+                         'count': len(files), 'files': files}, f, indent=2)
+          print(f'Published {len(files)} CSV files for Slotterhouse')
+          PY
+
       - name: Publish updated data
         run: |
           cp pipeline/batchmate_data.json pipeline/tight_tickets.json .
