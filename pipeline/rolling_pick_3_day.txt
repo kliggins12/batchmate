@@ -1,12 +1,12 @@
 Batchmate rolling Pick 3 Day - last 4 draws
 9 tickets (box match; any digit order wins same)
 
-269   # box wins=58 drought=12
-016   # box wins=57 drought=73
-126   # box wins=56 drought=40
-059   # box wins=55 drought=218
-458   # box wins=55 drought=95
-125   # box wins=55 drought=49
-234   # box wins=55 drought=7
-569   # box wins=54 drought=264
-489   # box wins=54 drought=108
+179   # box wins=60 drought=123
+269   # box wins=58 drought=13
+016   # box wins=57 drought=74
+017   # box wins=56 drought=68
+126   # box wins=56 drought=41
+059   # box wins=55 drought=219
+458   # box wins=55 drought=96
+125   # box wins=55 drought=50
+234   # box wins=55 drought=8

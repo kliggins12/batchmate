@@ -1,12 +1,12 @@
 Batchmate rolling Daily 4 Day - last 4 draws
 9 tickets (box match; any digit order wins same)
 
-1789   # box wins=26 drought=6
-2358   # box wins=23 drought=68
-2569   # box wins=22 drought=500
-0789   # box wins=22 drought=70
-2368   # box wins=21 drought=809
-1369   # box wins=21 drought=734
-2588   # box wins=21 drought=135
-1569   # box wins=20 drought=931
-0267   # box wins=20 drought=197
+1789   # box wins=26 drought=7
+1248   # box wins=24 drought=258
+0789   # box wins=22 drought=71
+2368   # box wins=21 drought=810
+4678   # box wins=21 drought=788
+1369   # box wins=21 drought=735
+0267   # box wins=20 drought=198
+0347   # box wins=20 drought=92
+3678   # box wins=19 drought=159

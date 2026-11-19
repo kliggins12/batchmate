@@ -1,12 +1,12 @@
 Batchmate rolling Pick 3 Morning - last 4 draws
 9 tickets (box match; any digit order wins same)
 
-045   # box wins=37 drought=48
-257   # box wins=37 drought=3
-028   # box wins=36 drought=45
-589   # box wins=35 drought=272
-248   # box wins=34 drought=82
-238   # box wins=34 drought=73
-023   # box wins=34 drought=19
-269   # box wins=33 drought=127
-146   # box wins=33 drought=70
+045   # box wins=37 drought=49
+257   # box wins=37 drought=4
+028   # box wins=36 drought=46
+589   # box wins=35 drought=273
+248   # box wins=34 drought=83
+238   # box wins=34 drought=74
+023   # box wins=34 drought=20
+269   # box wins=33 drought=128
+146   # box wins=33 drought=71
