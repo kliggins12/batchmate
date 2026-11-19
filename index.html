@@ -56,7 +56,7 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Latest draw</th><th>Source / stats</th>
+      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Latest draw</th><th>Hit game / session</th>
     </tr></thead>
     <tbody id="hotbody"></tbody>
   </table>
@@ -65,7 +65,7 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Remake</th><th>Latest draw</th><th>Source / stats</th>
+      <th>Game</th><th>Ticket</th><th>Latest match</th><th>Remake</th><th>Latest draw</th><th>Hit game / session</th>
     </tr></thead>
     <tbody id="readjbody"></tbody>
   </table>
@@ -95,7 +95,7 @@
   <div class="tightwrap">
   <table>
     <thead><tr>
-      <th data-tk="ticket">Ticket</th><th data-tk="best">Best match</th><th data-tk="best_date">Best on</th><th data-tk="last">Latest</th><th data-tk="asof">Data thru</th><th data-tk="game">Game</th><th data-tk="detail">Source / stats</th>
+      <th data-tk="ticket">Ticket</th><th data-tk="best">Best match</th><th data-tk="best_date">Best on</th><th data-tk="last">Latest</th><th data-tk="asof">Data thru</th><th data-tk="game">Game</th><th data-tk="detail">Hit game / session</th>
     </tr></thead>
     <tbody id="tightbody"></tbody>
   </table>
@@ -222,6 +222,13 @@ async function load() {
   renderReadj();
 }
 
+function hitGameSession(t) {
+   const m = (t.last || '').match(/(\d+)\/(\d+)/);
+   if (!m || +m[1] === 0) return 'No hit';
+   const session = (t.sess || '').trim();
+   return session ? `${t.game} · ${session.charAt(0).toUpperCase() + session.slice(1)}` : t.game;
+ }
+
 function tightVal(t, k) {
   if (k === 'best' || k === 'last') {
     const m = (t[k]||'').match(/(\d+)\/(\d+)/);
@@ -250,7 +257,7 @@ function renderTight() {
       <td class="${(()=>{const m=(t.last||'').match(/(\d+)\/(\d+)/);return m&&( +m[1]===+m[2] || (+m[2]===12&&+m[1]>=11))?'streak':''})()}">${t.last||'—'}</td>
       <td class="meta">${t.asof||'—'}</td>
       <td>${t.game}</td>
-      <td class="meta">${t.detail}</td>
+      <td class="meta">${hitGameSession(t)}</td>
     </tr>`).join('');
 }
 
